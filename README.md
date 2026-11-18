@@ -60,3 +60,9 @@ Both core evaluations and the external replication are retrospective. Corruption
 ## Citation and licensing
 
 See [CITATION.md](CITATION.md). Publication identifiers, the complete author list, and a reuse license are pending author confirmation. Dataset terms remain those of their respective providers. No paper acceptance or publication status is asserted.
+
+## Full experimental outputs
+
+Download the complete experimental results from the
+[v1.0.0 release](https://github.com/ghufran26/failure-aware-environmental-forecasting/releases/tag/v1.0.0).
+Under Assets, select "primna-tom-res.zip".
