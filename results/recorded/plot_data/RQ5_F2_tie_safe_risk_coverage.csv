@@ -1,0 +1,337 @@
+accepted_fraction,selective_RMSE,threshold,n_accepted,kind,dataset,model,condition,replicate,method
+1,0.629461083221,2.66802070424,1516,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Global split conformal
+0.1,0.629461083221,,152,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Global split conformal
+0.2,0.629461083221,,303,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Global split conformal
+0.3,0.629461083221,,455,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Global split conformal
+0.4,0.629461083221,,606,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Global split conformal
+0.5,0.629461083221,,758,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Global split conformal
+0.6,0.629461083221,,910,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Global split conformal
+0.7,0.629461083221,,1061,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Global split conformal
+0.8,0.629461083221,,1213,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Global split conformal
+0.9,0.629461083221,,1364,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Global split conformal
+1,0.629461083221,,1516,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Global split conformal
+0.00065963060686,0.0960438753436,0.537947969729,1,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.0507915567282,0.258999394154,1.45851298478,77,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.10092348285,0.322394013825,1.74743275239,153,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.151055408971,0.330008398459,1.92786940875,229,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.200527704485,0.35808532906,2.04894927649,304,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.250659630607,0.388155008574,2.20481670764,380,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.300791556728,0.388794250117,2.34702190856,456,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.35092348285,0.390050796886,2.44386416758,532,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.400395778364,0.414937590847,2.54518096431,607,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.450527704485,0.434662672727,2.67124381247,683,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.500659630607,0.440436718112,2.78618764386,759,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.550791556728,0.447424791782,2.91881711877,835,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.60092348285,0.455123570172,3.03651038592,911,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.650395778364,0.467173391108,3.18246376554,986,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.700527704485,0.470826986891,3.33926306372,1062,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.750659630607,0.479524367252,3.51852222259,1138,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.800131926121,0.49380404402,3.67228845851,1213,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.850263852243,0.515041883534,3.90720538322,1289,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.900395778364,0.533838128676,4.15641550272,1365,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.950527704485,0.546390990629,4.70741486218,1441,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+1,0.629461083221,7.75568045133,1516,attainable tied-score threshold,Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.1,0.629461083221,,152,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.2,0.629461083221,,303,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.3,0.629461083221,,455,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.4,0.629461083221,,606,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.5,0.629461083221,,758,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.6,0.629461083221,,910,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.7,0.629461083221,,1061,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.8,0.629461083221,,1213,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+0.9,0.629461083221,,1364,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+1,0.629461083221,,1516,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Clean,0,Locally scaled conformal
+1,0.721818896932,2.66802070424,1516,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Global split conformal
+0.1,0.721818896932,,152,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Global split conformal
+0.2,0.721818896932,,303,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Global split conformal
+0.3,0.721818896932,,455,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Global split conformal
+0.4,0.721818896932,,606,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Global split conformal
+0.5,0.721818896932,,758,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Global split conformal
+0.6,0.721818896932,,910,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Global split conformal
+0.7,0.721818896932,,1061,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Global split conformal
+0.8,0.721818896932,,1213,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Global split conformal
+0.9,0.721818896932,,1364,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Global split conformal
+1,0.721818896932,,1516,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Global split conformal
+0.00065963060686,0.171347437168,0.50740014024,1,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.0507915567282,0.438069980346,1.52071368231,77,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.10092348285,0.403091369672,1.75921506945,153,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.151055408971,0.430175795721,1.91034486095,229,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.200527704485,0.43979877079,2.04673354394,304,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.250659630607,0.465770287674,2.14431943026,380,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.300791556728,0.469881701902,2.25128627705,456,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.35092348285,0.476293404597,2.35856788533,532,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.400395778364,0.495832457986,2.4428765853,607,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.450527704485,0.521098617931,2.54637828002,683,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.500659630607,0.541063864991,2.63875603753,759,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.550791556728,0.547214223596,2.77405458997,835,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.60092348285,0.555807306272,2.90449835947,911,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.650395778364,0.554527545444,3.04539065325,986,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.700527704485,0.562069749067,3.15622492615,1062,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.750659630607,0.570600409391,3.29056908117,1138,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.800131926121,0.583518528576,3.44982764233,1213,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.850263852243,0.60596248128,3.65063120891,1289,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.900395778364,0.618143114593,3.89878677321,1365,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.950527704485,0.651600825097,4.28875125276,1441,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+1,0.721818896932,7.06058080823,1516,attainable tied-score threshold,Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.1,0.721818896932,,152,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.2,0.721818896932,,303,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.3,0.721818896932,,455,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.4,0.721818896932,,606,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.5,0.721818896932,,758,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.6,0.721818896932,,910,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.7,0.721818896932,,1061,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.8,0.721818896932,,1213,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+0.9,0.721818896932,,1364,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+1,0.721818896932,,1516,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,MCAR 20%,0,Locally scaled conformal
+1,0.645017090942,2.66802070424,1516,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Global split conformal
+0.1,0.645017090942,,152,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Global split conformal
+0.2,0.645017090942,,303,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Global split conformal
+0.3,0.645017090942,,455,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Global split conformal
+0.4,0.645017090942,,606,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Global split conformal
+0.5,0.645017090942,,758,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Global split conformal
+0.6,0.645017090942,,910,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Global split conformal
+0.7,0.645017090942,,1061,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Global split conformal
+0.8,0.645017090942,,1213,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Global split conformal
+0.9,0.645017090942,,1364,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Global split conformal
+1,0.645017090942,,1516,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Global split conformal
+0.00065963060686,0.211704603983,0.711099522997,1,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.0507915567282,0.275750934518,1.51834886331,77,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.10092348285,0.345634770845,1.80622150056,153,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.151055408971,0.405345080913,1.97403056154,229,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.200527704485,0.392907285157,2.09253458704,304,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.250659630607,0.399396335966,2.22328073821,380,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.300791556728,0.419197324893,2.34530151389,456,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.35092348285,0.424940246575,2.44758894527,532,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.400395778364,0.442394740672,2.56942933394,607,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.450527704485,0.440992101328,2.67863620641,683,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.500659630607,0.452462876566,2.79498593252,759,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.550791556728,0.459775112595,2.88984273104,835,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.60092348285,0.466944232486,3.01759636898,911,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.650395778364,0.476914772902,3.16382245859,986,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.700527704485,0.493488836261,3.28731133422,1062,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.750659630607,0.506620875353,3.43822494301,1138,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.800131926121,0.521882778672,3.65684922393,1213,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.850263852243,0.534349534845,3.87886789494,1289,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.900395778364,0.553367468352,4.10982388774,1365,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.950527704485,0.568496445589,4.70613168609,1441,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+1,0.645017090942,7.71534833936,1516,attainable tied-score threshold,Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.1,0.645017090942,,152,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.2,0.645017090942,,303,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.3,0.645017090942,,455,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.4,0.645017090942,,606,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.5,0.645017090942,,758,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.6,0.645017090942,,910,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.7,0.645017090942,,1061,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.8,0.645017090942,,1213,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+0.9,0.645017090942,,1364,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+1,0.645017090942,,1516,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Gaussian 10%,0,Locally scaled conformal
+1,0.760277867793,2.66802070424,1516,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Global split conformal
+0.1,0.760277867793,,152,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Global split conformal
+0.2,0.760277867793,,303,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Global split conformal
+0.3,0.760277867793,,455,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Global split conformal
+0.4,0.760277867793,,606,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Global split conformal
+0.5,0.760277867793,,758,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Global split conformal
+0.6,0.760277867793,,910,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Global split conformal
+0.7,0.760277867793,,1061,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Global split conformal
+0.8,0.760277867793,,1213,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Global split conformal
+0.9,0.760277867793,,1364,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Global split conformal
+1,0.760277867793,,1516,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Global split conformal
+0.00065963060686,0.193797105222,0.389048596393,1,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.0507915567282,0.530138694,1.12150058046,77,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.10092348285,0.536623902104,1.45732961458,153,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.151055408971,0.569652147475,1.68918372986,229,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.200527704485,0.58555028737,1.84921435086,304,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.250659630607,0.591167696644,1.98201341962,380,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.300791556728,0.58512739318,2.11753008461,456,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.35092348285,0.606788749368,2.27436347385,532,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.400395778364,0.607588044473,2.41091757494,607,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.450527704485,0.621670089693,2.53437898232,683,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.500659630607,0.629147882935,2.68803555941,759,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.550791556728,0.639924015293,2.80763193219,835,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.60092348285,0.638125717304,2.92420466802,911,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.650395778364,0.635691717128,3.04935505919,986,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.700527704485,0.646261899291,3.19869649478,1062,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.750659630607,0.655722718279,3.41866358227,1138,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.800131926121,0.665357819818,3.56977747257,1213,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.850263852243,0.676117975732,3.80968450234,1289,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.900395778364,0.693452066785,4.10550987174,1365,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.950527704485,0.706527303927,4.76096275398,1441,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+1,0.760277867793,7.89871329708,1516,attainable tied-score threshold,Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.1,0.760277867793,,152,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.2,0.760277867793,,303,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.3,0.760277867793,,455,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.4,0.760277867793,,606,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.5,0.760277867793,,758,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.6,0.760277867793,,910,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.7,0.760277867793,,1061,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.8,0.760277867793,,1213,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+0.9,0.760277867793,,1364,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+1,0.760277867793,,1516,random selection: sqrt(expected MSE),Air Quality,HistGradientBoosting,Abrupt drift,0,Locally scaled conformal
+1,84.3357898429,203.668997114,3832,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Global split conformal
+0.1,84.3357898429,,383,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Global split conformal
+0.2,84.3357898429,,766,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Global split conformal
+0.3,84.3357898429,,1150,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Global split conformal
+0.4,84.3357898429,,1533,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Global split conformal
+0.5,84.3357898429,,1916,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Global split conformal
+0.6,84.3357898429,,2299,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Global split conformal
+0.7,84.3357898429,,2682,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Global split conformal
+0.8,84.3357898429,,3066,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Global split conformal
+0.9,84.3357898429,,3449,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Global split conformal
+1,84.3357898429,,3832,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Global split conformal
+0.000260960334029,6.32612823995,32.3637463016,1,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.0503653444676,26.6900353228,93.0896861238,193,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.100469728601,29.5192039709,111.434484514,385,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.150313152401,34.7303884964,128.987933728,576,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.200417536534,39.0073279714,140.562190417,768,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.250260960334,44.9677212371,153.179747924,959,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.300365344468,51.6098277165,164.982299314,1151,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.350208768267,56.9303323326,175.14207664,1342,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.400313152401,59.9222756492,186.270095189,1534,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.4501565762,63.094645988,199.459230132,1725,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.500260960334,65.0940668506,211.856476685,1917,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.550365344468,66.8595533555,226.488897586,2109,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.600208768267,68.5221747586,241.316902466,2300,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.650313152401,69.5636932454,257.199704281,2492,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.7001565762,70.7669519532,282.765156529,2683,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.750260960334,72.6378945977,313.018015788,2875,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.800104384134,74.4414942517,337.820286941,3066,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.850208768267,75.0954671426,368.431497492,3258,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.900052192067,76.1345121504,421.387001753,3449,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.9501565762,78.9604204666,490.206964436,3641,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+1,84.3357898429,881.085766881,3832,attainable tied-score threshold,Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.1,84.3357898429,,383,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.2,84.3357898429,,766,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.3,84.3357898429,,1150,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.4,84.3357898429,,1533,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.5,84.3357898429,,1916,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.6,84.3357898429,,2299,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.7,84.3357898429,,2682,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.8,84.3357898429,,3066,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+0.9,84.3357898429,,3449,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+1,84.3357898429,,3832,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Clean,0,Locally scaled conformal
+1,79.2380219667,203.668997114,3832,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Global split conformal
+0.1,79.2380219667,,383,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Global split conformal
+0.2,79.2380219667,,766,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Global split conformal
+0.3,79.2380219667,,1150,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Global split conformal
+0.4,79.2380219667,,1533,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Global split conformal
+0.5,79.2380219667,,1916,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Global split conformal
+0.6,79.2380219667,,2299,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Global split conformal
+0.7,79.2380219667,,2682,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Global split conformal
+0.8,79.2380219667,,3066,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Global split conformal
+0.9,79.2380219667,,3449,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Global split conformal
+1,79.2380219667,,3832,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Global split conformal
+0.000260960334029,6.57534901917,33.3538548299,1,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.0503653444676,25.3450134772,94.0039825439,193,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.100469728601,30.2070064966,114.03850765,385,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.150313152401,31.9673766893,127.10283066,576,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.200417536534,33.5822739848,141.549980617,768,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.250260960334,36.8774457462,152.416777231,959,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.300365344468,39.048973193,162.889268989,1151,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.350208768267,45.6665748299,174.404132392,1342,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.400313152401,47.6163944716,185.433159489,1534,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.4501565762,52.3098608572,195.807788232,1725,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.500260960334,54.1205463262,206.497051039,1917,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.550365344468,58.7725950135,219.020967065,2109,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.600208768267,60.8876494998,231.013814397,2300,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.650313152401,62.7423725036,247.683842368,2492,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.7001565762,66.1415842439,265.833149815,2683,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.750260960334,68.1880666862,287.308272148,2875,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.800104384134,69.1036453463,311.325249238,3066,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.850208768267,70.4536611487,337.225073715,3258,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.900052192067,72.3919258768,383.637662168,3449,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.9501565762,74.8367415394,450.352720942,3641,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+1,79.2380219667,876.951436773,3832,attainable tied-score threshold,Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.1,79.2380219667,,383,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.2,79.2380219667,,766,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.3,79.2380219667,,1150,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.4,79.2380219667,,1533,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.5,79.2380219667,,1916,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.6,79.2380219667,,2299,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.7,79.2380219667,,2682,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.8,79.2380219667,,3066,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+0.9,79.2380219667,,3449,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+1,79.2380219667,,3832,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,MCAR 20%,0,Locally scaled conformal
+1,86.2463604195,203.668997114,3832,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Global split conformal
+0.1,86.2463604195,,383,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Global split conformal
+0.2,86.2463604195,,766,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Global split conformal
+0.3,86.2463604195,,1150,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Global split conformal
+0.4,86.2463604195,,1533,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Global split conformal
+0.5,86.2463604195,,1916,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Global split conformal
+0.6,86.2463604195,,2299,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Global split conformal
+0.7,86.2463604195,,2682,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Global split conformal
+0.8,86.2463604195,,3066,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Global split conformal
+0.9,86.2463604195,,3449,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Global split conformal
+1,86.2463604195,,3832,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Global split conformal
+0.000260960334029,15.2227268102,35.0203502062,1,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.0503653444676,30.7387573206,94.7492407948,193,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.100469728601,33.8984955319,117.337286371,385,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.150313152401,37.5905129119,131.517952427,576,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.200417536534,42.4485888174,143.37269686,768,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.250260960334,49.4023077818,154.519560861,959,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.300365344468,52.6305783472,165.765734274,1151,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.350208768267,56.8464704027,176.625848433,1342,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.400313152401,59.8407981985,188.052805708,1534,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.4501565762,62.5816570882,200.169596776,1725,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.500260960334,65.4399404884,212.771353793,1917,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.550365344468,68.0106322754,226.950224585,2109,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.600208768267,70.6759257938,240.883738122,2300,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.650313152401,71.7635569985,259.627757224,2492,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.7001565762,72.7486746977,283.805249075,2683,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.750260960334,75.2893885703,315.460576093,2875,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.800104384134,75.808811447,342.570749905,3066,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.850208768267,76.7000233489,374.51672853,3258,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.900052192067,78.3500634054,419.388843339,3449,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.9501565762,80.8834697881,494.121411926,3641,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+1,86.2463604195,891.862248037,3832,attainable tied-score threshold,Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.1,86.2463604195,,383,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.2,86.2463604195,,766,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.3,86.2463604195,,1150,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.4,86.2463604195,,1533,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.5,86.2463604195,,1916,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.6,86.2463604195,,2299,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.7,86.2463604195,,2682,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.8,86.2463604195,,3066,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+0.9,86.2463604195,,3449,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+1,86.2463604195,,3832,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Gaussian 10%,0,Locally scaled conformal
+1,85.4551597189,203.668997114,3832,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Global split conformal
+0.1,85.4551597189,,383,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Global split conformal
+0.2,85.4551597189,,766,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Global split conformal
+0.3,85.4551597189,,1150,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Global split conformal
+0.4,85.4551597189,,1533,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Global split conformal
+0.5,85.4551597189,,1916,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Global split conformal
+0.6,85.4551597189,,2299,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Global split conformal
+0.7,85.4551597189,,2682,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Global split conformal
+0.8,85.4551597189,,3066,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Global split conformal
+0.9,85.4551597189,,3449,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Global split conformal
+1,85.4551597189,,3832,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Global split conformal
+0.000260960334029,6.32612823995,32.3637463016,1,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.0503653444676,28.3458208185,99.7781818888,193,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.100469728601,35.5924614062,123.956711822,385,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.150313152401,43.0364401855,145.657264484,576,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.200417536534,54.4427449945,163.836975402,768,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.250260960334,58.6172337348,180.256396887,959,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.300365344468,60.1722564346,193.250166799,1151,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.350208768267,61.994054859,204.710042093,1342,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.400313152401,62.5968438675,215.063916984,1534,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.4501565762,63.480559743,226.932630478,1725,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.500260960334,64.5251582947,238.694576123,1917,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.550365344468,65.3073136985,251.774997421,2109,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.600208768267,66.8669487998,265.021840613,2300,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.650313152401,67.9186102641,286.076461543,2492,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.7001565762,71.1334230421,310.418269555,2683,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.750260960334,71.3820001041,329.263649432,2875,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.800104384134,72.7955665701,351.916272496,3066,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.850208768267,74.7904068071,386.102652177,3258,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.900052192067,76.6154423514,427.853284805,3449,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.9501565762,79.9563839842,491.912714706,3641,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+1,85.4551597189,863.988274085,3832,attainable tied-score threshold,Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.1,85.4551597189,,383,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.2,85.4551597189,,766,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.3,85.4551597189,,1150,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.4,85.4551597189,,1533,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.5,85.4551597189,,1916,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.6,85.4551597189,,2299,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.7,85.4551597189,,2682,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.8,85.4551597189,,3066,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+0.9,85.4551597189,,3449,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal
+1,85.4551597189,,3832,random selection: sqrt(expected MSE),Appliances Energy,Random Forest,Abrupt drift,0,Locally scaled conformal

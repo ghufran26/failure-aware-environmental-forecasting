@@ -1,0 +1,49 @@
+dataset,model,scenario,Spearman
+Air Quality,HistGradientBoosting,Abrupt drift,0.900824175824
+Air Quality,HistGradientBoosting,Bias 10%,0.971428571429
+Air Quality,HistGradientBoosting,Block 20%,0.819505494505
+Air Quality,HistGradientBoosting,Clean repeat control,0.956043956044
+Air Quality,HistGradientBoosting,Gaussian 10%,0.956868131868
+Air Quality,HistGradientBoosting,MCAR 20%,0.887637362637
+Air Quality,MLP,Abrupt drift,0.934340659341
+Air Quality,MLP,Bias 10%,0.977197802198
+Air Quality,MLP,Block 20%,0.488186813187
+Air Quality,MLP,Clean repeat control,0.989835164835
+Air Quality,MLP,Gaussian 10%,0.995054945055
+Air Quality,MLP,MCAR 20%,0.757692307692
+Air Quality,Random Forest,Abrupt drift,0.961538461538
+Air Quality,Random Forest,Bias 10%,0.978846153846
+Air Quality,Random Forest,Block 20%,0.932967032967
+Air Quality,Random Forest,Clean repeat control,0.993131868132
+Air Quality,Random Forest,Gaussian 10%,0.991483516484
+Air Quality,Random Forest,MCAR 20%,0.932142857143
+Air Quality,Ridge,Abrupt drift,0.991758241758
+Air Quality,Ridge,Bias 10%,0.995054945055
+Air Quality,Ridge,Block 20%,0.932967032967
+Air Quality,Ridge,Clean repeat control,0.992582417582
+Air Quality,Ridge,Gaussian 10%,0.994505494505
+Air Quality,Ridge,MCAR 20%,0.930494505495
+Appliances Energy,HistGradientBoosting,Abrupt drift,0.797921760391
+Appliances Energy,HistGradientBoosting,Bias 10%,0.864272616137
+Appliances Energy,HistGradientBoosting,Block 20%,0.510917850188
+Appliances Energy,HistGradientBoosting,Clean repeat control,0.909321515892
+Appliances Energy,HistGradientBoosting,Gaussian 10%,0.867623863778
+Appliances Energy,HistGradientBoosting,MCAR 20%,0.726298241807
+Appliances Energy,MLP,Abrupt drift,0.778815628816
+Appliances Energy,MLP,Bias 10%,0.888064713065
+Appliances Energy,MLP,Block 20%,0.174450549451
+Appliances Energy,MLP,Clean repeat control,0.859035409035
+Appliances Energy,MLP,Gaussian 10%,0.814133089133
+Appliances Energy,MLP,MCAR 20%,0.338797313797
+Appliances Energy,Random Forest,Abrupt drift,0.842399267399
+Appliances Energy,Random Forest,Bias 10%,0.952686202686
+Appliances Energy,Random Forest,Block 20%,0.633516483516
+Appliances Energy,Random Forest,Clean repeat control,0.964072039072
+Appliances Energy,Random Forest,Gaussian 10%,0.97380952381
+Appliances Energy,Random Forest,MCAR 20%,0.836355311355
+Appliances Energy,Ridge,Abrupt drift,1
+Appliances Energy,Ridge,Bias 10%,1
+Appliances Energy,Ridge,Block 20%,0.448107448107
+Appliances Energy,Ridge,Clean repeat control,0.986935286935
+Appliances Energy,Ridge,Gaussian 10%,0.985836385836
+Appliances Energy,Ridge,MCAR 20%,0.771001221001

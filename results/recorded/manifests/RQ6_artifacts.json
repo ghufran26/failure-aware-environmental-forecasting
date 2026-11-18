@@ -1,0 +1,34 @@
+[
+  {
+    "stem": "RQ6_F1_accuracy_runtime_frontier",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ6_F1_accuracy_runtime_frontier.pdf",
+    "plot_data": "plot_data/RQ6_F1_accuracy_runtime_frontier.csv",
+    "title": "RQ6. Accuracy and measured training cost",
+    "caption": "Costs use one host, fixed model seeds, excluded warmups and randomized repeat order. Horizontal bars are the empirical 2.5-97.5 percentiles across timing repeats, not cross-hardware confidence intervals. The dotted nondominated set is computed from means only."
+  },
+  {
+    "stem": "RQ6_F2_energy_evidence_and_provenance",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ6_F2_energy_evidence_and_provenance.pdf",
+    "plot_data": "plot_data/RQ6_F2_energy_evidence_and_provenance.csv",
+    "title": "RQ6. Memory remains measurable when energy telemetry is unavailable",
+    "caption": "Missing telemetry remains unavailable, never zero or assumed model-specific wattage. CPU package counters are host-scoped; CodeCarbon fallback values are estimates. When all energy readings are unavailable this panel displays measured process peak RSS and increments, not a fabricated energy comparison. Process RSS includes prior allocations."
+  },
+  {
+    "stem": "RQ6_F3_training_inference_cost",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ6_F3_training_inference_cost.pdf",
+    "plot_data": "plot_data/RQ6_F3_training_inference_cost.csv",
+    "title": "RQ6. Training and inference are distinct operational costs",
+    "caption": "Inference is normalized per 1,000 predictions. Time covers computation, whereas energy covers the tracked operation batch and may also include instrumentation overhead. No arbitrary robustness-per-watt composite is formed."
+  },
+  {
+    "stem": "RQ6_T1_compute_and_measurement_scope",
+    "type": "table",
+    "pdf": "tables/RQ6_T1_compute_and_measurement_scope.pdf",
+    "plot_data": "tables/RQ6_T1_compute_and_measurement_scope.csv",
+    "title": "RQ6. Measured cost and energy qualification",
+    "caption": "Peak RSS is process resident memory, not model-only allocation. A zero RSS increment can mean previously allocated memory was reused. Energy estimates are not converted into carbon claims. Detailed operation counts, warnings and hardware records are included."
+  }
+]

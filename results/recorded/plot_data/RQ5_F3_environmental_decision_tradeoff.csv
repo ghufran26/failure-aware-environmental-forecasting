@@ -1,0 +1,97 @@
+dataset,model,condition,method,review_capacity,cost,abstention,cost_low,cost_high
+Air Quality,HistGradientBoosting,Abrupt drift,Global split conformal,0.05,0.100544195251,0.0494722955145,0.0895448548813,0.115930079156
+Air Quality,HistGradientBoosting,Abrupt drift,Global split conformal,0.1,0.084614116095,0.0996042216359,0.0783311345646,0.0928759894459
+Air Quality,HistGradientBoosting,Abrupt drift,Global split conformal,0.2,0.0900065963061,0.1922823219,0.0810232519789,0.100775065963
+Air Quality,HistGradientBoosting,Abrupt drift,Global split conformal,0.4,0.0900643139842,0.201682058047,0.0810232519789,0.101484168865
+Air Quality,HistGradientBoosting,Abrupt drift,Locally scaled conformal,0.05,0.113604881266,0.0494722955145,0.0987631926121,0.129205145119
+Air Quality,HistGradientBoosting,Abrupt drift,Locally scaled conformal,0.1,0.080672823219,0.0996042216359,0.0696405013193,0.0922163588391
+Air Quality,HistGradientBoosting,Abrupt drift,Locally scaled conformal,0.2,0.064231530343,0.199868073879,0.0597790237467,0.0697559366755
+Air Quality,HistGradientBoosting,Abrupt drift,Locally scaled conformal,0.4,0.0729468997361,0.274637203166,0.062739116095,0.0828001319261
+Air Quality,HistGradientBoosting,Abrupt drift,Point forecast,0.05,0.144030343008,0,0.131151055409,0.157058047493
+Air Quality,HistGradientBoosting,Abrupt drift,Point forecast,0.1,0.144030343008,0,0.131151055409,0.157058047493
+Air Quality,HistGradientBoosting,Abrupt drift,Point forecast,0.2,0.144030343008,0,0.131151055409,0.157058047493
+Air Quality,HistGradientBoosting,Abrupt drift,Point forecast,0.4,0.144030343008,0,0.131151055409,0.157058047493
+Air Quality,HistGradientBoosting,Clean,Global split conformal,0.05,0.109993403694,0.0494722955145,0.109993403694,0.109993403694
+Air Quality,HistGradientBoosting,Clean,Global split conformal,0.1,0.0882255936675,0.0996042216359,0.0882255936675,0.0882255936675
+Air Quality,HistGradientBoosting,Clean,Global split conformal,0.2,0.0773416886544,0.151055408971,0.0773416886544,0.0773416886544
+Air Quality,HistGradientBoosting,Clean,Global split conformal,0.4,0.0773416886544,0.151055408971,0.0773416886544,0.0773416886544
+Air Quality,HistGradientBoosting,Clean,Locally scaled conformal,0.05,0.125164907652,0.0494722955145,0.125164907652,0.125164907652
+Air Quality,HistGradientBoosting,Clean,Locally scaled conformal,0.1,0.0710751978892,0.0996042216359,0.0710751978892,0.0710751978892
+Air Quality,HistGradientBoosting,Clean,Locally scaled conformal,0.2,0.0565633245383,0.199868073879,0.0565633245383,0.0565633245383
+Air Quality,HistGradientBoosting,Clean,Locally scaled conformal,0.4,0.0600263852243,0.213720316623,0.0600263852243,0.0600263852243
+Air Quality,HistGradientBoosting,Clean,Point forecast,0.05,0.156992084433,0,0.156992084433,0.156992084433
+Air Quality,HistGradientBoosting,Clean,Point forecast,0.1,0.156992084433,0,0.156992084433,0.156992084433
+Air Quality,HistGradientBoosting,Clean,Point forecast,0.2,0.156992084433,0,0.156992084433,0.156992084433
+Air Quality,HistGradientBoosting,Clean,Point forecast,0.4,0.156992084433,0,0.156992084433,0.156992084433
+Air Quality,HistGradientBoosting,Gaussian 10%,Global split conformal,0.05,0.112549472296,0.0494722955145,0.102671503958,0.122526385224
+Air Quality,HistGradientBoosting,Gaussian 10%,Global split conformal,0.1,0.0867908970976,0.0996042216359,0.0808872031662,0.0916062005277
+Air Quality,HistGradientBoosting,Gaussian 10%,Global split conformal,0.2,0.0822394459103,0.150461741425,0.0770077506596,0.0884688324538
+Air Quality,HistGradientBoosting,Gaussian 10%,Global split conformal,0.4,0.0822394459103,0.150461741425,0.0770077506596,0.0884688324538
+Air Quality,HistGradientBoosting,Gaussian 10%,Locally scaled conformal,0.05,0.119871372032,0.0494722955145,0.11058707124,0.132470316623
+Air Quality,HistGradientBoosting,Gaussian 10%,Locally scaled conformal,0.1,0.0710916886544,0.0996042216359,0.0644788918206,0.0776715039578
+Air Quality,HistGradientBoosting,Gaussian 10%,Locally scaled conformal,0.2,0.0596965699208,0.199868073879,0.053265171504,0.0664577836412
+Air Quality,HistGradientBoosting,Gaussian 10%,Locally scaled conformal,0.4,0.0602036609499,0.211461081794,0.055573878628,0.066301121372
+Air Quality,HistGradientBoosting,Gaussian 10%,Point forecast,0.05,0.16390171504,0,0.145069261214,0.178875329815
+Air Quality,HistGradientBoosting,Gaussian 10%,Point forecast,0.1,0.16390171504,0,0.145069261214,0.178875329815
+Air Quality,HistGradientBoosting,Gaussian 10%,Point forecast,0.2,0.16390171504,0,0.145069261214,0.178875329815
+Air Quality,HistGradientBoosting,Gaussian 10%,Point forecast,0.4,0.16390171504,0,0.145069261214,0.178875329815
+Air Quality,HistGradientBoosting,MCAR 20%,Global split conformal,0.05,0.150461741425,0.0494722955145,0.14084762533,0.167546174142
+Air Quality,HistGradientBoosting,MCAR 20%,Global split conformal,0.1,0.10382585752,0.0996042216359,0.0906167546174,0.117331794195
+Air Quality,HistGradientBoosting,MCAR 20%,Global split conformal,0.2,0.0919896108179,0.121256596306,0.0759440963061,0.106921998681
+Air Quality,HistGradientBoosting,MCAR 20%,Global split conformal,0.4,0.0919896108179,0.121256596306,0.0759440963061,0.106921998681
+Air Quality,HistGradientBoosting,MCAR 20%,Locally scaled conformal,0.05,0.148911609499,0.0494722955145,0.131678759894,0.168123350923
+Air Quality,HistGradientBoosting,MCAR 20%,Locally scaled conformal,0.1,0.0895448548813,0.0996042216359,0.0710751978892,0.104056728232
+Air Quality,HistGradientBoosting,MCAR 20%,Locally scaled conformal,0.2,0.0678223944591,0.173004617414,0.0572312005277,0.0847749010554
+Air Quality,HistGradientBoosting,MCAR 20%,Locally scaled conformal,0.4,0.0678223944591,0.173004617414,0.0572312005277,0.0847749010554
+Air Quality,HistGradientBoosting,MCAR 20%,Point forecast,0.05,0.229567941953,0,0.215583773087,0.244854881266
+Air Quality,HistGradientBoosting,MCAR 20%,Point forecast,0.1,0.229567941953,0,0.215583773087,0.244854881266
+Air Quality,HistGradientBoosting,MCAR 20%,Point forecast,0.2,0.229567941953,0,0.215583773087,0.244854881266
+Air Quality,HistGradientBoosting,MCAR 20%,Point forecast,0.4,0.229567941953,0,0.215583773087,0.244854881266
+Appliances Energy,Random Forest,Abrupt drift,Global split conformal,0.05,0.461143006263,0.0498434237996,0.350978601253,0.584831680585
+Appliances Energy,Random Forest,Abrupt drift,Global split conformal,0.1,0.444983037578,0.0999478079332,0.337630480167,0.562897964509
+Appliances Energy,Random Forest,Abrupt drift,Global split conformal,0.2,0.408370302714,0.199895615866,0.302152922756,0.520381002088
+Appliances Energy,Random Forest,Abrupt drift,Global split conformal,0.4,0.365194415449,0.399791231733,0.283011482255,0.448877870564
+Appliances Energy,Random Forest,Abrupt drift,Locally scaled conformal,0.05,0.448453810021,0.0498434237996,0.340788100209,0.570243997912
+Appliances Energy,Random Forest,Abrupt drift,Locally scaled conformal,0.1,0.425404488518,0.0999478079332,0.324667275574,0.542040709812
+Appliances Energy,Random Forest,Abrupt drift,Locally scaled conformal,0.2,0.391244780793,0.199895615866,0.30569545929,0.491557933194
+Appliances Energy,Random Forest,Abrupt drift,Locally scaled conformal,0.4,0.336847599165,0.399791231733,0.271353079332,0.404286273486
+Appliances Energy,Random Forest,Abrupt drift,Point forecast,0.05,0.473636482255,0,0.364378914405,0.598186325678
+Appliances Energy,Random Forest,Abrupt drift,Point forecast,0.1,0.473636482255,0,0.364378914405,0.598186325678
+Appliances Energy,Random Forest,Abrupt drift,Point forecast,0.2,0.473636482255,0,0.364378914405,0.598186325678
+Appliances Energy,Random Forest,Abrupt drift,Point forecast,0.4,0.473636482255,0,0.364378914405,0.598186325678
+Appliances Energy,Random Forest,Clean,Global split conformal,0.05,0.348316805846,0.0498434237996,0.348316805846,0.348316805846
+Appliances Energy,Random Forest,Clean,Global split conformal,0.1,0.333181106472,0.0999478079332,0.333181106472,0.333181106472
+Appliances Energy,Random Forest,Clean,Global split conformal,0.2,0.301278705637,0.199895615866,0.301278705637,0.301278705637
+Appliances Energy,Random Forest,Clean,Global split conformal,0.4,0.292536534447,0.399791231733,0.292536534447,0.292536534447
+Appliances Energy,Random Forest,Clean,Locally scaled conformal,0.05,0.343097599165,0.0498434237996,0.343097599165,0.343097599165
+Appliances Energy,Random Forest,Clean,Locally scaled conformal,0.1,0.327700939457,0.0999478079332,0.327700939457,0.327700939457
+Appliances Energy,Random Forest,Clean,Locally scaled conformal,0.2,0.313282881002,0.199895615866,0.313282881002,0.313282881002
+Appliances Energy,Random Forest,Clean,Locally scaled conformal,0.4,0.28235908142,0.399791231733,0.28235908142,0.28235908142
+Appliances Energy,Random Forest,Clean,Point forecast,0.05,0.363517745303,0,0.363517745303,0.363517745303
+Appliances Energy,Random Forest,Clean,Point forecast,0.1,0.363517745303,0,0.363517745303,0.363517745303
+Appliances Energy,Random Forest,Clean,Point forecast,0.2,0.363517745303,0,0.363517745303,0.363517745303
+Appliances Energy,Random Forest,Clean,Point forecast,0.4,0.363517745303,0,0.363517745303,0.363517745303
+Appliances Energy,Random Forest,Gaussian 10%,Global split conformal,0.05,0.368175887265,0.0498434237996,0.360294885177,0.377302974948
+Appliances Energy,Random Forest,Gaussian 10%,Global split conformal,0.1,0.353072807933,0.0999478079332,0.344656837161,0.359609864301
+Appliances Energy,Random Forest,Gaussian 10%,Global split conformal,0.2,0.31871085595,0.199895615866,0.31301539666,0.324510699374
+Appliances Energy,Random Forest,Gaussian 10%,Global split conformal,0.4,0.296450939457,0.399791231733,0.291975469729,0.302994519833
+Appliances Energy,Random Forest,Gaussian 10%,Locally scaled conformal,0.05,0.362878392484,0.0498434237996,0.354051409186,0.373649530271
+Appliances Energy,Random Forest,Gaussian 10%,Locally scaled conformal,0.1,0.347403444676,0.0999478079332,0.339424582463,0.354677713987
+Appliances Energy,Random Forest,Gaussian 10%,Locally scaled conformal,0.2,0.328425104384,0.199895615866,0.321594467641,0.335777661795
+Appliances Energy,Random Forest,Gaussian 10%,Locally scaled conformal,0.4,0.2874217119,0.399791231733,0.282822286013,0.293084551148
+Appliances Energy,Random Forest,Gaussian 10%,Point forecast,0.05,0.382685281837,0,0.373121085595,0.392256002088
+Appliances Energy,Random Forest,Gaussian 10%,Point forecast,0.1,0.382685281837,0,0.373121085595,0.392256002088
+Appliances Energy,Random Forest,Gaussian 10%,Point forecast,0.2,0.382685281837,0,0.373121085595,0.392256002088
+Appliances Energy,Random Forest,Gaussian 10%,Point forecast,0.4,0.382685281837,0,0.373121085595,0.392256002088
+Appliances Energy,Random Forest,MCAR 20%,Global split conformal,0.05,0.338413361169,0.0498434237996,0.324047494781,0.353901356994
+Appliances Energy,Random Forest,MCAR 20%,Global split conformal,0.1,0.317980167015,0.0999478079332,0.305199634656,0.332743997912
+Appliances Energy,Random Forest,MCAR 20%,Global split conformal,0.2,0.27994519833,0.199895615866,0.271777139875,0.290853340292
+Appliances Energy,Random Forest,MCAR 20%,Global split conformal,0.4,0.258076722338,0.399791231733,0.250208768267,0.267229906054
+Appliances Energy,Random Forest,MCAR 20%,Locally scaled conformal,0.05,0.339744258873,0.0498434237996,0.327948851775,0.354853862213
+Appliances Energy,Random Forest,MCAR 20%,Locally scaled conformal,0.1,0.32262526096,0.0999478079332,0.310210073069,0.336358298539
+Appliances Energy,Random Forest,MCAR 20%,Locally scaled conformal,0.2,0.300058716075,0.199895615866,0.289502870564,0.311032098121
+Appliances Energy,Random Forest,MCAR 20%,Locally scaled conformal,0.4,0.256458768267,0.399791231733,0.247553496868,0.26673408142
+Appliances Energy,Random Forest,MCAR 20%,Point forecast,0.05,0.360627609603,0,0.350417536534,0.373701722338
+Appliances Energy,Random Forest,MCAR 20%,Point forecast,0.1,0.360627609603,0,0.350417536534,0.373701722338
+Appliances Energy,Random Forest,MCAR 20%,Point forecast,0.2,0.360627609603,0,0.350417536534,0.373701722338
+Appliances Energy,Random Forest,MCAR 20%,Point forecast,0.4,0.360627609603,0,0.350417536534,0.373701722338

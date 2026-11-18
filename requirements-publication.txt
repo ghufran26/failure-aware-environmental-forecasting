@@ -1,0 +1,3 @@
+-r requirements.txt
+PyMuPDF
+# PyMuPDF version was not recorded in the supplied run manifest.

@@ -1,0 +1,54 @@
+[
+  {
+    "test": "Constant-width intervals cannot create selective rankings",
+    "passed": true
+  },
+  {
+    "test": "Tied-score decisions are row-order invariant",
+    "passed": true
+  },
+  {
+    "test": "Finite-sample conformal rank returns infinity when required",
+    "passed": true
+  },
+  {
+    "test": "Zero alarms do not bypass the rare-FAR uncertainty gate",
+    "passed": true
+  },
+  {
+    "test": "Operational adaptation has no oracle-onset input",
+    "passed": true
+  },
+  {
+    "test": "Feature construction is nonrecursive and future invariant; seasonal offset",
+    "passed": true
+  },
+  {
+    "test": "All-feature missing indicators and training-only medians",
+    "passed": true
+  },
+  {
+    "test": "Failed predictions do not shrink the evaluation denominator",
+    "passed": true
+  },
+  {
+    "test": "Interval decision policy separates alerts, rejection, and abstention",
+    "passed": true
+  },
+  {
+    "test": "Decision review demand obeys the registered capacity",
+    "passed": true
+  },
+  {
+    "test": "Prequential predictions precede future-label updates",
+    "passed": true
+  },
+  {
+    "test": "Air Quality: actual labels and full-clock corruption denominator",
+    "passed": true
+  },
+  {
+    "test": "Appliances Energy: actual labels and full-clock corruption denominator",
+    "passed": true
+  }
+]

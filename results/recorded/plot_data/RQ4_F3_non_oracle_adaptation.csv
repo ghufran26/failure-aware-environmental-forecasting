@@ -1,0 +1,41 @@
+dataset,policy,condition,RMSE_change_percent,low,high,replicates
+Air Quality,Periodic,No injected shift,12.1529910209,12.1529910209,12.1529910209,30
+Air Quality,Periodic,Abrupt mean,0.546382143336,-1.3024670018,2.48060470329,30
+Air Quality,Periodic,Gradual mean,-1.67600130202,-4.63664553797,1.24543817997,30
+Air Quality,Periodic,Variance,10.6948982167,7.35923173333,14.4319533769,30
+Air Quality,Periodic,Recurring,7.11857139733,5.36058597053,8.93219084601,30
+Air Quality,Random budget-matched,No injected shift,0,0,0,30
+Air Quality,Random budget-matched,Abrupt mean,0.190504643803,-0.864241304719,1.49355900656,30
+Air Quality,Random budget-matched,Gradual mean,-1.03619178437,-3.3352323925,1.33475630017,30
+Air Quality,Random budget-matched,Variance,0,0,0,30
+Air Quality,Random budget-matched,Recurring,-0.0203880962986,-0.0493155077806,0,30
+Air Quality,Alarm-triggered,No injected shift,0,0,0,30
+Air Quality,Alarm-triggered,Abrupt mean,-1.98174056593,-3.38711443402,-0.723526588333,30
+Air Quality,Alarm-triggered,Gradual mean,-4.37939238969,-6.58161918254,-2.43639062086,30
+Air Quality,Alarm-triggered,Variance,0,0,0,30
+Air Quality,Alarm-triggered,Recurring,-0.530350240094,-1.40434046665,0,30
+Air Quality,Guarded alarm,No injected shift,0,0,0,30
+Air Quality,Guarded alarm,Abrupt mean,-2.19357276021,-3.79990293245,-0.817751964953,30
+Air Quality,Guarded alarm,Gradual mean,-3.82574374887,-5.61122789851,-2.30173897989,30
+Air Quality,Guarded alarm,Variance,0,0,0,30
+Air Quality,Guarded alarm,Recurring,-0.469801503153,-1.23398236768,0,30
+Appliances Energy,Periodic,No injected shift,-20.3037171218,-20.3037171218,-20.3037171218,30
+Appliances Energy,Periodic,Abrupt mean,-21.7400234783,-22.2039711306,-21.341131776,30
+Appliances Energy,Periodic,Gradual mean,-21.749285692,-22.2510553926,-21.3138856158,30
+Appliances Energy,Periodic,Variance,-16.3496807523,-18.0586807428,-14.6531503395,30
+Appliances Energy,Periodic,Recurring,-21.2193727097,-21.630803714,-20.8652998344,30
+Appliances Energy,Random budget-matched,No injected shift,-3.37006500839e-15,-6.74013001677e-15,6.31088724177e-31,30
+Appliances Energy,Random budget-matched,Abrupt mean,-5.87123390594,-9.35036011399,-2.53509051127,30
+Appliances Energy,Random budget-matched,Gradual mean,-5.70166812526,-9.22016892462,-2.57077563097,30
+Appliances Energy,Random budget-matched,Variance,-4.6520251218,-7.05037988891,-2.30552120491,30
+Appliances Energy,Random budget-matched,Recurring,-4.31461122576,-7.22219198376,-1.73637117652,30
+Appliances Energy,Alarm-triggered,No injected shift,-5.61677501398e-16,-4.49342001118e-15,3.37006500839e-15,30
+Appliances Energy,Alarm-triggered,Abrupt mean,-10.7877281449,-15.0076693627,-6.5633485996,30
+Appliances Energy,Alarm-triggered,Gradual mean,-8.44851449975,-12.4176770385,-4.60253629606,30
+Appliances Energy,Alarm-triggered,Variance,-6.78587005627,-9.57636016881,-4.10783538493,30
+Appliances Energy,Alarm-triggered,Recurring,-4.11182597399,-6.34709859756,-1.89775218083,30
+Appliances Energy,Guarded alarm,No injected shift,-1.1233550028e-15,-5.05509751258e-15,2.24671000559e-15,30
+Appliances Energy,Guarded alarm,Abrupt mean,-9.48513320582,-13.2262513623,-5.83315912196,30
+Appliances Energy,Guarded alarm,Gradual mean,-8.12516736454,-12.0539519353,-4.32853117215,30
+Appliances Energy,Guarded alarm,Variance,-5.72170187947,-8.47435754595,-3.26204069214,30
+Appliances Energy,Guarded alarm,Recurring,-4.6307815625,-7.28762251573,-2.06616188996,30

@@ -1,0 +1,73 @@
+dataset,model,mechanism,tail95,MAE
+Air Quality,HistGradientBoosting,Calibration bias,1.36046667999,0.556674011449
+Air Quality,HistGradientBoosting,Clipping,1.28051329488,0.430853959006
+Air Quality,HistGradientBoosting,Gaussian,1.35015103025,0.471890118475
+Air Quality,HistGradientBoosting,Multiplicative,1.41667052487,0.502750889398
+Air Quality,HistGradientBoosting,Spikes,1.58403411101,0.553766731135
+Air Quality,HistGradientBoosting,Stuck-at,1.3772949696,0.470062183944
+Air Quality,MLP,Calibration bias,1.96905873695,0.756397312601
+Air Quality,MLP,Clipping,1.83726080103,0.729259739996
+Air Quality,MLP,Gaussian,2.14941731672,0.820176195688
+Air Quality,MLP,Multiplicative,2.34529096834,0.882736112412
+Air Quality,MLP,Spikes,5.06926553429,1.82220353216
+Air Quality,MLP,Stuck-at,2.01203968525,0.782438467285
+Air Quality,Persistence,Calibration bias,1.938,0.691406332454
+Air Quality,Persistence,Clipping,1.9,0.526418205805
+Air Quality,Persistence,Gaussian,1.94000685646,0.623986833374
+Air Quality,Persistence,Multiplicative,1.93754417617,0.559470457368
+Air Quality,Persistence,Spikes,5.93875,1.07755524406
+Air Quality,Persistence,Stuck-at,2.003125,0.581388522427
+Air Quality,Random Forest,Calibration bias,1.3759184858,0.525457283194
+Air Quality,Random Forest,Clipping,1.42397116345,0.443381430694
+Air Quality,Random Forest,Gaussian,1.43125900955,0.507879004602
+Air Quality,Random Forest,Multiplicative,1.48719854537,0.529816855334
+Air Quality,Random Forest,Spikes,1.94812861287,0.592146074368
+Air Quality,Random Forest,Stuck-at,1.5222456716,0.48751789779
+Air Quality,Ridge,Calibration bias,1.43635531004,0.640444510681
+Air Quality,Ridge,Clipping,1.31431673078,0.508241359326
+Air Quality,Ridge,Gaussian,1.45912504814,0.564168668431
+Air Quality,Ridge,Multiplicative,1.70000976397,0.654835460746
+Air Quality,Ridge,Spikes,4.5475385648,1.70320708896
+Air Quality,Ridge,Stuck-at,1.41179067538,0.527394300837
+Air Quality,Seasonal naive,Calibration bias,2.693625,0.914756596306
+Air Quality,Seasonal naive,Clipping,2.3925,0.772935356201
+Air Quality,Seasonal naive,Gaussian,2.60666603682,0.87156902842
+Air Quality,Seasonal naive,Multiplicative,2.61146189982,0.828422391321
+Air Quality,Seasonal naive,Spikes,5.906875,1.3217521438
+Air Quality,Seasonal naive,Stuck-at,2.579375,0.834015501319
+Appliances Energy,HistGradientBoosting,Calibration bias,132.461403925,53.5752925004
+Appliances Energy,HistGradientBoosting,Clipping,133.466314504,35.4565189094
+Appliances Energy,HistGradientBoosting,Gaussian,137.142756847,53.3556152704
+Appliances Energy,HistGradientBoosting,Multiplicative,142.277817478,55.7677325415
+Appliances Energy,HistGradientBoosting,Spikes,211.541503845,66.1965857313
+Appliances Energy,HistGradientBoosting,Stuck-at,142.573331864,42.252477239
+Appliances Energy,MLP,Calibration bias,157.516637949,59.1857841342
+Appliances Energy,MLP,Clipping,185.205724505,45.4928686116
+Appliances Energy,MLP,Gaussian,183.39675146,61.6199594665
+Appliances Energy,MLP,Multiplicative,307.541808691,103.41613931
+Appliances Energy,MLP,Spikes,582.639699526,175.896545
+Appliances Energy,MLP,Stuck-at,184.053515614,59.9862641039
+Appliances Energy,Persistence,Calibration bias,134,29.858559499
+Appliances Energy,Persistence,Clipping,155,28.8048016701
+Appliances Energy,Persistence,Gaussian,133.659245877,28.7525849606
+Appliances Energy,Persistence,Multiplicative,134.347419046,27.7818418438
+Appliances Energy,Persistence,Spikes,185.4875,40.8253196764
+Appliances Energy,Persistence,Stuck-at,155.5,29.8256784969
+Appliances Energy,Random Forest,Calibration bias,174.657701515,74.1406286441
+Appliances Energy,Random Forest,Clipping,117.646186885,38.4967070437
+Appliances Energy,Random Forest,Gaussian,169.796890634,67.9087995547
+Appliances Energy,Random Forest,Multiplicative,167.286130352,73.9626892829
+Appliances Energy,Random Forest,Spikes,219.968870872,77.3969014482
+Appliances Energy,Random Forest,Stuck-at,160.69365302,56.3392208601
+Appliances Energy,Ridge,Calibration bias,112.676297683,39.4421169538
+Appliances Energy,Ridge,Clipping,161.893340211,32.4699490198
+Appliances Energy,Ridge,Gaussian,113.996176398,38.3221628755
+Appliances Energy,Ridge,Multiplicative,229.235979323,90.7794773454
+Appliances Energy,Ridge,Spikes,262.250405031,101.706956582
+Appliances Energy,Ridge,Stuck-at,135.301508743,41.3407541594
+Appliances Energy,Seasonal naive,Calibration bias,266.7,53.7708768267
+Appliances Energy,Seasonal naive,Clipping,200,40.7894050104
+Appliances Energy,Seasonal naive,Gaussian,266.34385882,53.1799592576
+Appliances Energy,Seasonal naive,Multiplicative,265.692655713,52.2870303086
+Appliances Energy,Seasonal naive,Spikes,273.38125,64.2165970772
+Appliances Energy,Seasonal naive,Stuck-at,255.4,49.1848251566

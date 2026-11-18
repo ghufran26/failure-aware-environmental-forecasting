@@ -1,0 +1,34 @@
+[
+  {
+    "stem": "EV_F1_multisite_skill",
+    "type": "figure",
+    "pdf": "figures_pdf/EV_F1_multisite_skill.pdf",
+    "plot_data": "plot_data/EV_F1_multisite_skill.csv",
+    "title": "External replication across all 12 Beijing stations",
+    "caption": "Every point is a genuinely held-out station test result. LOSO models are trained on the other eleven stations with fixed hyperparameters. Values below one beat persistence; failures are retained."
+  },
+  {
+    "stem": "EV_F2_multisite_stress",
+    "type": "figure",
+    "pdf": "figures_pdf/EV_F2_multisite_stress.pdf",
+    "plot_data": "plot_data/EV_F2_multisite_stress.csv",
+    "title": "Between-station distribution of degradation",
+    "caption": "Boxes summarize the twelve station-level mean effects; corruption replicates are averaged within station before cross-station display. Stations, not simulated replicas, are the generalisation unit."
+  },
+  {
+    "stem": "EV_F3_transfer_penalty",
+    "type": "figure",
+    "pdf": "figures_pdf/EV_F3_transfer_penalty.pdf",
+    "plot_data": "plot_data/EV_F3_transfer_penalty.csv",
+    "title": "Cross-site transfer penalty is heterogeneous",
+    "caption": "Positive values mean that training on other stations transfers worse than station-local training. This isolates transportability rather than mixing stations with corruption replicas."
+  },
+  {
+    "stem": "EV_T1_multisite_endpoints",
+    "type": "table",
+    "pdf": "tables/EV_T1_multisite_endpoints.pdf",
+    "plot_data": "tables/EV_T1_multisite_endpoints.csv",
+    "title": "External multi-site replication endpoints",
+    "caption": "All twelve stations are shown. Hyperparameters are fixed before held-out-station testing. Model and persistence metrics use the same explicitly reported scoreable rows; targets lacking a persistence value are excluded only from this paired comparison and counted in the audit. Ratios below one beat persistence. The station bootstrap in BEIJING_multisite_summary.csv is descriptive and does not imply that Beijing stations represent all cities."
+  }
+]

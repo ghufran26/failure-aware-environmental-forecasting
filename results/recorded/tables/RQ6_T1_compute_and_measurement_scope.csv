@@ -1,0 +1,17 @@
+Dataset,Model,Operation,Repeats,Time (s),Energy (kWh),Energy provenance,Peak RSS MB,RSS increase MB
+Air,HGB,Inference / 1000,15,0.015003110235,,Unavailable,802.32421875,0.00390625
+Air,HGB,Training,15,2.9397375356,,Unavailable,802.56640625,0.21484375
+Air,MLP,Inference / 1000,15,0.00550758916267,,Unavailable,802.40625,2.3203125
+Air,MLP,Training,15,22.4746349835,,Unavailable,802.40625,0.00390625
+Air,RF,Inference / 1000,15,0.0727194351403,,Unavailable,802.48046875,0.2734375
+Air,RF,Training,15,45.8784517282,,Unavailable,802.4921875,13.2734375
+Air,Ridge,Inference / 1000,15,0.0019629286945,,Unavailable,802.40625,0.00390625
+Air,Ridge,Training,15,0.116720950202,,Unavailable,802.32421875,0.00390625
+Energy,HGB,Inference / 1000,15,0.012967408076,,Unavailable,916.796875,36.078125
+Energy,HGB,Training,15,8.1526220314,,Unavailable,966.5625,94.1171875
+Energy,MLP,Inference / 1000,15,0.0109719705331,,Unavailable,917.05859375,36.078125
+Energy,MLP,Training,15,149.74884053,,Unavailable,927.9609375,55.51171875
+Energy,RF,Inference / 1000,15,0.0349330526169,,Unavailable,917.21484375,42.37890625
+Energy,RF,Training,15,364.412072301,,Unavailable,992.5546875,127.421875
+Energy,Ridge,Inference / 1000,15,0.00649868837186,,Unavailable,916.796875,36.078125
+Energy,Ridge,Training,15,0.33298154187,,Unavailable,993.08203125,125.1640625

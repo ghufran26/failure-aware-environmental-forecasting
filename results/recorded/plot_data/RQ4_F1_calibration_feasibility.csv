@@ -1,0 +1,53 @@
+detector,parameter,null_mean_far,null_far_q95,observed_policy_far,observed_alarm_count,observed_exposure,observed_far_upper95,policy_strict_detection,policy_median_delay,n_simulations,feasible,far_claim_supported,selected,provisional_selected,dataset,model
+Page-Hinkley,8,6.30652173913,9.78260869565,7.60869565217,7,920,14.2914280461,0.002,1,500,False,False,False,False,Air Quality,HistGradientBoosting
+Page-Hinkley,18,3.09130434783,5.4347826087,2.17391304348,2,920,6.84325393682,0.072,7,500,False,False,False,False,Air Quality,HistGradientBoosting
+Page-Hinkley,35,1.43695652174,3.26086956522,2.17391304348,2,920,6.84325393682,0.374,15,500,False,False,False,False,Air Quality,HistGradientBoosting
+Page-Hinkley,75,0.226086956522,1.08695652174,0,0,920,3.25623073212,0.916,38,500,False,False,False,False,Air Quality,HistGradientBoosting
+Page-Hinkley,150,0,0,0,0,920,3.25623073212,1,88.5,500,True,False,False,True,Air Quality,HistGradientBoosting
+Page-Hinkley,400,0,0,0,0,920,3.25623073212,0.92,287,500,True,False,False,False,Air Quality,HistGradientBoosting
+Page-Hinkley,1000,0,0,0,0,920,3.25623073212,0,,500,True,False,False,False,Air Quality,HistGradientBoosting
+CUSUM,8,3.91086956522,7.60869565217,3.26086956522,3,920,8.42788753036,0.132,6,500,False,False,False,False,Air Quality,HistGradientBoosting
+CUSUM,18,1.51956521739,4.34782608696,2.17391304348,2,920,6.84325393682,0.404,14,500,False,False,False,False,Air Quality,HistGradientBoosting
+CUSUM,40,0.113043478261,1.08695652174,1.08695652174,1,920,5.15637447651,0.94,34,500,False,False,False,False,Air Quality,HistGradientBoosting
+CUSUM,80,0.00217391304348,0,0,0,920,3.25623073212,0.998,68,500,True,False,False,False,Air Quality,HistGradientBoosting
+CUSUM,160,0,0,0,0,920,3.25623073212,1,138,500,True,False,False,True,Air Quality,HistGradientBoosting
+CUSUM,400,0,0,0,0,920,3.25623073212,0.744,326,500,True,False,False,False,Air Quality,HistGradientBoosting
+CUSUM,1000,0,0,0,0,920,3.25623073212,0,,500,True,False,False,False,Air Quality,HistGradientBoosting
+EWMA,2,0.671739130435,2.17391304348,1.08695652174,1,920,5.15637447651,0.674,49,500,False,False,False,False,Air Quality,HistGradientBoosting
+EWMA,4,0,0,0,0,920,3.25623073212,0.216,194.5,500,True,False,False,False,Air Quality,HistGradientBoosting
+EWMA,8,0,0,0,0,920,3.25623073212,0,,500,True,False,False,False,Air Quality,HistGradientBoosting
+EWMA,16,0,0,0,0,920,3.25623073212,0,,500,True,False,False,False,Air Quality,HistGradientBoosting
+EWMA,32,0,0,0,0,920,3.25623073212,0,,500,True,False,False,False,Air Quality,HistGradientBoosting
+EWMA,64,0,0,0,0,920,3.25623073212,0,,500,True,False,False,False,Air Quality,HistGradientBoosting
+Windowed KS,0.02,3.4847826087,4.34782608696,2.17391304348,2,920,6.84325393682,0.024,10,500,False,False,False,False,Air Quality,HistGradientBoosting
+Windowed KS,0.005,2.98043478261,4.34782608696,2.17391304348,2,920,6.84325393682,0.082,16,500,False,False,False,False,Air Quality,HistGradientBoosting
+Windowed KS,0.001,2.2847826087,4.34782608696,2.17391304348,2,920,6.84325393682,0.206,18,500,False,False,False,False,Air Quality,HistGradientBoosting
+Windowed KS,0.0001,1.66739130435,3.26086956522,2.17391304348,2,920,6.84325393682,0.332,23,500,False,False,False,False,Air Quality,HistGradientBoosting
+Windowed KS,1e-05,1.25,3.26086956522,2.17391304348,2,920,6.84325393682,0.46,25,500,False,False,False,False,Air Quality,HistGradientBoosting
+Windowed KS,1e-06,0.902173913043,2.17391304348,1.08695652174,1,920,5.15637447651,0.59,26,500,False,False,False,False,Air Quality,HistGradientBoosting
+Page-Hinkley,8,9.88720626632,12.0365535248,9.92167101828,19,1915,14.5583496812,0,,500,False,False,False,False,Appliances Energy,Random Forest
+Page-Hinkley,18,4.72375979112,6.78851174935,4.69973890339,9,1915,8.20115740058,0,,500,False,False,False,False,Appliances Energy,Random Forest
+Page-Hinkley,35,2.46475195822,3.65535248042,2.61096605744,5,1915,5.48983546148,0.01,11,500,False,False,False,False,Appliances Energy,Random Forest
+Page-Hinkley,75,0.731070496084,1.56657963446,0.522193211488,1,1915,2.47721384772,0.336,28,500,False,False,False,False,Appliances Energy,Random Forest
+Page-Hinkley,150,0.13681462141,0.522193211488,0.522193211488,1,1915,2.47721384772,0.918,59,500,True,False,False,False,Appliances Energy,Random Forest
+Page-Hinkley,400,0,0,0,0,1915,1.56435105669,1,195.5,500,True,False,False,True,Appliances Energy,Random Forest
+Page-Hinkley,1000,0,0,0,0,1915,1.56435105669,0.99,598,500,True,False,False,False,Appliances Energy,Random Forest
+CUSUM,8,5.34308093995,8.35509138381,5.22193211488,10,1915,8.85755573667,0.002,4,500,False,False,False,False,Appliances Energy,Random Forest
+CUSUM,18,1.50287206266,3.13315926893,1.56657963446,3,1915,4.0489068031,0.286,13,500,False,False,False,False,Appliances Energy,Random Forest
+CUSUM,40,0.402088772846,1.04438642298,0.522193211488,1,1915,2.47721384772,0.622,29,500,False,False,False,False,Appliances Energy,Random Forest
+CUSUM,80,0.00208877284595,0,0,0,1915,1.56435105669,0.998,59,500,True,False,False,False,Appliances Energy,Random Forest
+CUSUM,160,0,0,0,0,1915,1.56435105669,1,114,500,True,False,False,True,Appliances Energy,Random Forest
+CUSUM,400,0,0,0,0,1915,1.56435105669,1,288,500,True,False,False,False,Appliances Energy,Random Forest
+CUSUM,1000,0,0,0,0,1915,1.56435105669,0.792,706,500,True,False,False,False,Appliances Energy,Random Forest
+EWMA,2,0.00313315926893,0,0,0,1915,1.56435105669,0.998,37,500,True,False,False,True,Appliances Energy,Random Forest
+EWMA,4,0,0,0,0,1915,1.56435105669,0.004,726,500,True,False,False,False,Appliances Energy,Random Forest
+EWMA,8,0,0,0,0,1915,1.56435105669,0,,500,True,False,False,False,Appliances Energy,Random Forest
+EWMA,16,0,0,0,0,1915,1.56435105669,0,,500,True,False,False,False,Appliances Energy,Random Forest
+EWMA,32,0,0,0,0,1915,1.56435105669,0,,500,True,False,False,False,Appliances Energy,Random Forest
+EWMA,64,0,0,0,0,1915,1.56435105669,0,,500,True,False,False,False,Appliances Energy,Random Forest
+Windowed KS,0.02,5.94569190601,6.78851174935,6.78851174935,13,1915,10.7929864625,0,,500,False,False,False,False,Appliances Energy,Random Forest
+Windowed KS,0.005,5.68146214099,6.78851174935,6.26631853786,12,1915,10.152777718,0,,500,False,False,False,False,Appliances Energy,Random Forest
+Windowed KS,0.001,5.2637075718,6.26631853786,6.26631853786,12,1915,10.152777718,0,,500,False,False,False,False,Appliances Energy,Random Forest
+Windowed KS,0.0001,4.80313315927,5.74412532637,5.74412532637,11,1915,9.5078403399,0,,500,False,False,False,False,Appliances Energy,Random Forest
+Windowed KS,1e-05,4.41148825065,5.74412532637,4.69973890339,9,1915,8.20115740058,0,,500,False,False,False,False,Appliances Energy,Random Forest
+Windowed KS,1e-06,3.98537859008,5.22193211488,4.69973890339,9,1915,8.20115740058,0,,500,False,False,False,False,Appliances Energy,Random Forest

@@ -1,0 +1,226 @@
+[
+  {
+    "stem": "RQ1_F1_response_curves",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ1_F1_response_curves.pdf",
+    "plot_data": "plot_data/RQ1_F1_response_curves.csv",
+    "title": "RQ1. Severity response, with paired uncertainty",
+    "caption": "Curves are root mean squared errors pooled over corruption replicas relative to the same clean model. Bands: 95% replicate plus clock-day block bootstrap on the fixed historical test period. Nominal severity has mechanism-specific meaning. Datasets are not pooled."
+  },
+  {
+    "stem": "RQ1_F2_vulnerability_fingerprint",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ1_F2_vulnerability_fingerprint.pdf",
+    "plot_data": "plot_data/RQ1_F2_vulnerability_fingerprint.csv",
+    "title": "RQ1. Mechanism-specific vulnerability",
+    "caption": "Both panels use an identical color normalization. Negative areas are retained and indicate lower error in this stress setting, not universal superiority. All models, including naive baselines, are shown."
+  },
+  {
+    "stem": "RQ1_F3_injection_manipulation_check",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ1_F3_injection_manipulation_check.pdf",
+    "plot_data": "plot_data/RQ1_F3_injection_manipulation_check.csv",
+    "title": "RQ1. Was the requested missingness actually achieved?",
+    "caption": "Denominator is originally observed raw cells over every clock origin, not only origins with an observed future label. Channel rounding, protected MAR context, and conditional risk change realized rates. Bands are empirical corruption-replicate 2.5-97.5 percentiles, not confidence intervals."
+  },
+  {
+    "stem": "RQ1_T1_accuracy_and_degradation",
+    "type": "table",
+    "pdf": "tables/RQ1_T1_accuracy_and_degradation.pdf",
+    "plot_data": "tables/RQ1_T1_accuracy_and_degradation.csv",
+    "title": "RQ1. Absolute accuracy and relative degradation",
+    "caption": "Equal weights across the prespecified mechanisms, not learned weights. AUDC is normalized by the maximum severity. Worst scenario is the maximum pooled relative RMSE change. Clean RMSE units differ by dataset: Air mg/m3; Energy Wh per 10 minutes. Relative changes and AUDC are fractions (0.10 = 10%). Detailed paired block-sign tests and Holm adjustments are separate result files."
+  },
+  {
+    "stem": "RQ2_F1_response_curves",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ2_F1_response_curves.pdf",
+    "plot_data": "plot_data/RQ2_F1_response_curves.csv",
+    "title": "RQ2. Severity response, with paired uncertainty",
+    "caption": "Curves are root mean squared errors pooled over corruption replicas relative to the same clean model. Bands: 95% replicate plus clock-day block bootstrap on the fixed historical test period. Nominal severity has mechanism-specific meaning. Datasets are not pooled."
+  },
+  {
+    "stem": "RQ2_F2_vulnerability_fingerprint",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ2_F2_vulnerability_fingerprint.pdf",
+    "plot_data": "plot_data/RQ2_F2_vulnerability_fingerprint.csv",
+    "title": "RQ2. Mechanism-specific vulnerability",
+    "caption": "Both panels use an identical color normalization. Negative areas are retained and indicate lower error in this stress setting, not universal superiority. All models, including naive baselines, are shown."
+  },
+  {
+    "stem": "RQ2_F3_tail_error_exposure",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ2_F3_tail_error_exposure.pdf",
+    "plot_data": "plot_data/RQ2_F3_tail_error_exposure.csv",
+    "title": "RQ2. Typical error and tail-error exposure are different",
+    "caption": "Each point is a model/fault combination at the largest registered severity, averaged over replicas. This diagnostic distinguishes typical error from the tail of the error distribution; it is not an uncertainty interval or a worst-case guarantee."
+  },
+  {
+    "stem": "RQ2_T1_accuracy_and_degradation",
+    "type": "table",
+    "pdf": "tables/RQ2_T1_accuracy_and_degradation.pdf",
+    "plot_data": "tables/RQ2_T1_accuracy_and_degradation.csv",
+    "title": "RQ2. Absolute accuracy and relative degradation",
+    "caption": "Equal weights across the prespecified mechanisms, not learned weights. AUDC is normalized by the maximum severity. Worst scenario is the maximum pooled relative RMSE change. Clean RMSE units differ by dataset: Air mg/m3; Energy Wh per 10 minutes. Relative changes and AUDC are fractions (0.10 = 10%). Detailed paired block-sign tests and Holm adjustments are separate result files."
+  },
+  {
+    "stem": "RQ3_F1_rank_stability",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ3_F1_rank_stability.pdf",
+    "plot_data": "plot_data/RQ3_F1_rank_stability.csv",
+    "title": "RQ3. Stability compared with repeat-only explanation noise",
+    "caption": "Grouped permutation importance is signed. Clean repeat control changes permutation draws without corrupting the data. Other conditions use paired permutation draws. Both panels share [-1, 1]. Values are conditional on the fixed, contiguous explanation windows."
+  },
+  {
+    "stem": "RQ3_F2_signed_importance_changes",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ3_F2_signed_importance_changes.pdf",
+    "plot_data": "plot_data/RQ3_F2_signed_importance_changes.csv",
+    "title": "RQ3. Which evidence changes, and in which direction?",
+    "caption": "Deployment model is selected using development CV only. Displayed groups are selected by absolute clean importance; negative importance is preserved. All lags of a sensor are permuted together within contiguous evaluation windows. This is grouped permutation evidence, not SHAP or a causal explanation."
+  },
+  {
+    "stem": "RQ3_F3_prediction_explanation_dissociation",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ3_F3_prediction_explanation_dissociation.pdf",
+    "plot_data": "plot_data/RQ3_F3_prediction_explanation_dissociation.csv",
+    "title": "RQ3. Prediction and explanation can deteriorate differently",
+    "caption": "Each point is a prespecified corruption replica. The figure diagnoses dissociation; it is not a pooled independent-sample correlation test. Clean-repeat controls are reported separately."
+  },
+  {
+    "stem": "RQ3_T1_explanation_metrics",
+    "type": "table",
+    "pdf": "tables/RQ3_T1_explanation_metrics.pdf",
+    "plot_data": "tables/RQ3_T1_explanation_metrics.csv",
+    "title": "RQ3. Degradation beyond clean-repeat explanation noise",
+    "caption": "Every entry is a paired degraded-minus-clean-repeat contrast using the same model and replica. Negative rank or agreement contrasts indicate degradation beyond the explainer control. Intervals bootstrap paired replicas; p-values use paired sign flips and Holm correction within dataset/model/metric."
+  },
+  {
+    "stem": "RQ4_F1_calibration_feasibility",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ4_F1_calibration_feasibility.pdf",
+    "plot_data": "plot_data/RQ4_F1_calibration_feasibility.csv",
+    "title": "RQ4. Feasibility is a constraint, not a best-effort label",
+    "caption": "Rings mark provisional candidates; filled markers require the exact one-sided event-rate upper bound to meet the target. Zero observed alarms are not treated as proof of a sufficiently low future false-alarm rate."
+  },
+  {
+    "stem": "RQ4_F2_alarm_timelines",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ4_F2_alarm_timelines.pdf",
+    "plot_data": "plot_data/RQ4_F2_alarm_timelines.csv",
+    "title": "RQ4. Residual evolution and all alarms, including early alarms",
+    "caption": "Prespecified abrupt-mean replica 0. Alarm timestamps correspond to residual availability. Pre-injection alarms are not filtered out. Real chronological data have no verified natural-drift labels; these are alarms around a simulated measurement shift."
+  },
+  {
+    "stem": "RQ4_F3_non_oracle_adaptation",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ4_F3_non_oracle_adaptation.pdf",
+    "plot_data": "plot_data/RQ4_F3_non_oracle_adaptation.csv",
+    "title": "RQ4. Does deployable adaptation beat frozen and periodic baselines?",
+    "caption": "Every prediction precedes its outcome. The random policy receives the alarm policy's refit-attempt budget, separating timing value from compute value. Guarded candidates use trailing observed labels. Negative is better; comparison with periodic updating is also saved numerically."
+  },
+  {
+    "stem": "RQ4_T1_operating_characteristics",
+    "type": "table",
+    "pdf": "tables/RQ4_T1_operating_characteristics.pdf",
+    "plot_data": "tables/RQ4_T1_operating_characteristics.csv",
+    "title": "RQ4. Operating characteristics and matched clean control",
+    "caption": "Rates are averages over simulated corruptions on one historical test period. Post-onset alarm is not proof of causal detection; compare the same-window clean alarm rate. Residual lag counts updates after the first affected residual, not elapsed time from sensor onset; zero means the arrival of that residual. Misses have undefined lag, never zero. Full censoring information is saved separately."
+  },
+  {
+    "stem": "RQ5_F1_coverage_width",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ5_F1_coverage_width.pdf",
+    "plot_data": "plot_data/RQ5_F1_coverage_width.csv",
+    "title": "RQ5. Empirical coverage versus interval width",
+    "caption": "Both methods use the identical calibration-B observations after a temporal gap from local-scale fitting. Bands use replicate plus clock-day resampling. Serial dependence and distribution shift preclude an unconditional exchangeability guarantee; the dashed line is nominal, not guaranteed."
+  },
+  {
+    "stem": "RQ5_F2_tie_safe_risk_coverage",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ5_F2_tie_safe_risk_coverage.pdf",
+    "plot_data": "plot_data/RQ5_F2_tie_safe_risk_coverage.csv",
+    "title": "RQ5. Selective prediction without arbitrary tie breaking",
+    "caption": "Prespecified replica 0. Solid dots: attainable local-width thresholds. Cross at 100%: constant global width has no individual ranking. Dashed lines: sqrt(expected MSE) for random selection. Operational thresholds are fixed on policy data; these curves are descriptive, not test-tuned policies."
+  },
+  {
+    "stem": "RQ5_F3_environmental_decision_tradeoff",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ5_F3_environmental_decision_tradeoff.pdf",
+    "plot_data": "plot_data/RQ5_F3_environmental_decision_tradeoff.csv",
+    "title": "RQ5. Uncertainty changes environmental decision cost and review demand",
+    "caption": "High-event thresholds are frozen at the policy 90% quantile. The panel fixes abstention cost at 0.25, varies feasible review capacity, and uses a false-negative cost ratio of 5. The full cost/capacity grid is saved; these are scenarios, not stakeholder utilities."
+  },
+  {
+    "stem": "RQ5_T1_uncertainty_decision",
+    "type": "table",
+    "pdf": "tables/RQ5_T1_uncertainty_decision.pdf",
+    "plot_data": "tables/RQ5_T1_uncertainty_decision.csv",
+    "title": "RQ5. Calibration, warning, and decision utility are distinct endpoints",
+    "caption": "Deployment models only. Decision columns use the policy 90% event threshold and false-negative cost ratio 5; the complete prespecified sensitivity grid is in RQ5_decision_utility.csv. Costs are scenario assumptions, not inferred stakeholder preferences."
+  },
+  {
+    "stem": "RQ6_F1_accuracy_runtime_frontier",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ6_F1_accuracy_runtime_frontier.pdf",
+    "plot_data": "plot_data/RQ6_F1_accuracy_runtime_frontier.csv",
+    "title": "RQ6. Accuracy and measured training cost",
+    "caption": "Costs use one host, fixed model seeds, excluded warmups and randomized repeat order. Horizontal bars are the empirical 2.5-97.5 percentiles across timing repeats, not cross-hardware confidence intervals. The dotted nondominated set is computed from means only."
+  },
+  {
+    "stem": "RQ6_F2_energy_evidence_and_provenance",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ6_F2_energy_evidence_and_provenance.pdf",
+    "plot_data": "plot_data/RQ6_F2_energy_evidence_and_provenance.csv",
+    "title": "RQ6. Memory remains measurable when energy telemetry is unavailable",
+    "caption": "Missing telemetry remains unavailable, never zero or assumed model-specific wattage. CPU package counters are host-scoped; CodeCarbon fallback values are estimates. When all energy readings are unavailable this panel displays measured process peak RSS and increments, not a fabricated energy comparison. Process RSS includes prior allocations."
+  },
+  {
+    "stem": "RQ6_F3_training_inference_cost",
+    "type": "figure",
+    "pdf": "figures_pdf/RQ6_F3_training_inference_cost.pdf",
+    "plot_data": "plot_data/RQ6_F3_training_inference_cost.csv",
+    "title": "RQ6. Training and inference are distinct operational costs",
+    "caption": "Inference is normalized per 1,000 predictions. Time covers computation, whereas energy covers the tracked operation batch and may also include instrumentation overhead. No arbitrary robustness-per-watt composite is formed."
+  },
+  {
+    "stem": "RQ6_T1_compute_and_measurement_scope",
+    "type": "table",
+    "pdf": "tables/RQ6_T1_compute_and_measurement_scope.pdf",
+    "plot_data": "tables/RQ6_T1_compute_and_measurement_scope.csv",
+    "title": "RQ6. Measured cost and energy qualification",
+    "caption": "Peak RSS is process resident memory, not model-only allocation. A zero RSS increment can mean previously allocated memory was reused. Energy estimates are not converted into carbon claims. Detailed operation counts, warnings and hardware records are included."
+  },
+  {
+    "stem": "EV_F1_multisite_skill",
+    "type": "figure",
+    "pdf": "figures_pdf/EV_F1_multisite_skill.pdf",
+    "plot_data": "plot_data/EV_F1_multisite_skill.csv",
+    "title": "External replication across all 12 Beijing stations",
+    "caption": "Every point is a genuinely held-out station test result. LOSO models are trained on the other eleven stations with fixed hyperparameters. Values below one beat persistence; failures are retained."
+  },
+  {
+    "stem": "EV_F2_multisite_stress",
+    "type": "figure",
+    "pdf": "figures_pdf/EV_F2_multisite_stress.pdf",
+    "plot_data": "plot_data/EV_F2_multisite_stress.csv",
+    "title": "Between-station distribution of degradation",
+    "caption": "Boxes summarize the twelve station-level mean effects; corruption replicates are averaged within station before cross-station display. Stations, not simulated replicas, are the generalisation unit."
+  },
+  {
+    "stem": "EV_F3_transfer_penalty",
+    "type": "figure",
+    "pdf": "figures_pdf/EV_F3_transfer_penalty.pdf",
+    "plot_data": "plot_data/EV_F3_transfer_penalty.csv",
+    "title": "Cross-site transfer penalty is heterogeneous",
+    "caption": "Positive values mean that training on other stations transfers worse than station-local training. This isolates transportability rather than mixing stations with corruption replicas."
+  },
+  {
+    "stem": "EV_T1_multisite_endpoints",
+    "type": "table",
+    "pdf": "tables/EV_T1_multisite_endpoints.pdf",
+    "plot_data": "tables/EV_T1_multisite_endpoints.csv",
+    "title": "External multi-site replication endpoints",
+    "caption": "All twelve stations are shown. Hyperparameters are fixed before held-out-station testing. Model and persistence metrics use the same explicitly reported scoreable rows; targets lacking a persistence value are excluded only from this paired comparison and counted in the audit. Ratios below one beat persistence. The station bootstrap in BEIJING_multisite_summary.csv is descriptive and does not imply that Beijing stations represent all cities."
+  }
+]

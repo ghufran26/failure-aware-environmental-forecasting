@@ -1,0 +1,17 @@
+group,Clean,MCAR 20%,dataset,model
+AH,-0.00537305009328,-0.00405747894245,Air Quality,HistGradientBoosting
+T,-0.0037190122399,-0.00298593824485,Air Quality,HistGradientBoosting
+PT08.S5(O3),0.00400622356166,-0.00184927432921,Air Quality,HistGradientBoosting
+PT08.S1(CO),0.0885958524076,0.0774377084821,Air Quality,HistGradientBoosting
+PT08.S2(NMHC),0.107366243917,0.107309315058,Air Quality,HistGradientBoosting
+Calendar,0.109941366291,0.139263404144,Air Quality,HistGradientBoosting
+C6H6(GT),0.132289028392,0.121861456187,Air Quality,HistGradientBoosting
+CO(GT),0.2191173814,0.21296746964,Air Quality,HistGradientBoosting
+RH_6,-0.803108628415,-0.525146436668,Appliances Energy,Random Forest
+T1,-0.592666203794,-0.437939244308,Appliances Energy,Random Forest
+RH_2,-0.434651900087,-0.0916452572997,Appliances Energy,Random Forest
+T_out,-0.274182572485,-0.183908995215,Appliances Energy,Random Forest
+RH_out,-0.239442648682,-0.17166462458,Appliances Energy,Random Forest
+T2,-0.213997388066,-0.17970237472,Appliances Energy,Random Forest
+Calendar,0.47106007948,2.01935993373,Appliances Energy,Random Forest
+Appliances,33.2090331981,29.8549967991,Appliances Energy,Random Forest

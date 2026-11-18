@@ -1,0 +1,4307 @@
+[
+  {
+    "task_key": "fa7739d8ce548a9951ee3fec71925770fae555ed3bf35085bf1437550d141b54",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Air Quality raw/features",
+    "stage": "P1",
+    "status": "loaded"
+  },
+  {
+    "task_key": "f9c922c032a272f2f6ae1ac93addd0f493b66166b24eb75e6ec6ddc3547b8d0d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Appliances Energy raw/features",
+    "stage": "P1",
+    "status": "loaded"
+  },
+  {
+    "task_key": "6bcc4c8b6cfaff100be177fecce1847b9c8653f719248a840beb896cd3ea6a7d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "P2 phase result",
+    "stage": "PHASE2",
+    "status": "loaded"
+  },
+  {
+    "task_key": "2163c03be6fd6feca4090288fc5e3b4786ede76e049cd2c0344aafc6dadaf2cc",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ1 phase result",
+    "stage": "PHASE3",
+    "status": "loaded"
+  },
+  {
+    "task_key": "9c231a0ac6b9da863e81be18737ca6015aa6730f2e8bfc9eb5b03d964a24ab41",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ2 phase result",
+    "stage": "PHASE4",
+    "status": "loaded"
+  },
+  {
+    "task_key": "56fd878bb76c5b279ba82bab90b95f8d9a7378e6893e0eb1311ef8de770768f3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ3 phase result",
+    "stage": "PHASE5",
+    "status": "loaded"
+  },
+  {
+    "task_key": "9a38aa942a8bc4f858aa4e3c1b9571ab2807bc8e08f84473d56c9541dd079341",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ4 phase result",
+    "stage": "PHASE6",
+    "status": "loaded"
+  },
+  {
+    "task_key": "083649f9c6486a1e3c227f31a5327bc301d6b15034a1d2cf8fefab2b638b0229",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ5 phase result",
+    "stage": "PHASE7",
+    "status": "loaded"
+  },
+  {
+    "task_key": "605b365cb167c9fe153cf049b2c3c4e97d2d233433076df1852c4d88fdea2cf3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Inference / 1000 | repeat 1/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "198134153d36b68a4b4ed72cd3dd37ef23019311c1d0256884db66d316bb31fc",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Inference / 1000 | repeat 1/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "4383d9610623880972a447cebc70affce3a5e20b1140b57db42b9b6eac6b9c5b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Training | repeat 1/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "46495ff7917971280328b7dfa37e058b45f4a8ba5f3822faf9c40caf36d5ce92",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Inference / 1000 | repeat 1/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "4c91b5b92c6c67aff9d65761cc5019fbad6e140ef13d79ba2c6090ba483d1008",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Training | repeat 1/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "24a281a80fcfcd48fd353026a5a59061095ebf099a2754f9824e44aa6158f3d7",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Inference / 1000 | repeat 1/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "cf3b3a270a6a6ef53941c3c09365cb71976fad968d48fda9820cc788f3dd85db",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Training | repeat 1/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "434697db5a64af833a7aaaa0baf0dd01c7b439a31989833811a2d691f2fd81e5",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Training | repeat 1/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "9f1a3a21da2fc84cf8ea9ed34b82a00e7b75d8be49ddeb5930e1aac220b7e38e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Training | repeat 2/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "0dd21006ecae8d1ffa4ed6c7d7aebdaa898dafb9bffb58935e47cd8355252896",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Inference / 1000 | repeat 2/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "8f26be5ad619462ab9bf4b0d0af1fe3199620004604f0778091ce9bf0f0d7455",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Inference / 1000 | repeat 2/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "e6883cb9bf2de3fb5323f38ed7ce2b1dae12563fcadb42a8c7c1198147fac534",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Training | repeat 2/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "361d2141af7771f7b0dfdd8a2d83782f5e4c46c8841c96af4271c02e06388252",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Training | repeat 2/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "3cd3a50eca09f314adbaa640807ebc525a0243bf7d107542cb0820aa3172a5b8",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Training | repeat 2/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "f2579a7750a5ccb8832200e4bd6ddc85fda8213783082efef95354868eb63390",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Inference / 1000 | repeat 2/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "906c9942002b14deedd094cec94807d28eb5e62c112e2957dc917c98666cf6ef",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Inference / 1000 | repeat 2/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "6c7753a81a04a92f1e41bb6f8f26f408bcf375c24e3fe83d9461b7692e6a0db9",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Training | repeat 3/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "90a7b2f1943e2aabe25f88659e305764b9ab78538b43759af90f8b6173305f3d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Inference / 1000 | repeat 3/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "01666a79f18d92ed3b914f859ffe556b023d3734d9f1a4b673c1a83547b6a2c4",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Inference / 1000 | repeat 3/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "eb5a12c0256f69d3ce026e41fa3c76ac174f0cc68286f6416dc2894f8b05981c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Inference / 1000 | repeat 3/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "8e20fb878a150b76d8cdd5470194cce2c2ef0648dcbcb299bc7bbd92e3ac0f79",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Training | repeat 3/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "94143e6bbf5c057089b7cb07e0ee7080002914944600a79e7f54a2adee2ae390",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Training | repeat 3/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "dddb7825e94108790f07916fa980c40c621f1ea3b006f2a9b843985d5553b129",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Training | repeat 3/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "4456e6396c2a4dc6f9e92ba529bf98064b7cbfc284c353e44cfa82ae671af61e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Inference / 1000 | repeat 3/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "1188548e0eaf32cfcc9397068cfddadd28ac81b937bc9e312bf7bca87c8950f5",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Inference / 1000 | repeat 4/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "8eee6591a448537261ad60aab2efc023651ad78122d8e4f26bd10b9153047be3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Inference / 1000 | repeat 4/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "058ee5485edc47ad4773da0eedcd94f4a86da1d822a86ee4e109b4e38852e1e6",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Training | repeat 4/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "c8f518aae45a260180d78a581e7701a249508c32e8d55527f0776497933fb05c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Inference / 1000 | repeat 4/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "d85d4f14a50d5382146b6c9ee844dfe10ed93e12ee640ae5a84bbc3f5d6b90ef",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Training | repeat 4/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "9d4d33626b8c309c6e3a790df206cadbf754e8d5f8a4a3145f26fc0b7183210c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Inference / 1000 | repeat 4/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "4f2ca987e1cb6b3aa758cab4dcdc5656e975acc140a0f0fef9c6d1635b762d84",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Training | repeat 4/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "ed07290a4d6261eee517bf6bfb27709dab377c152ef16334739ec30e0ca1a550",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Training | repeat 4/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "a14a7bf48bb0c372816fda9cdc51ba2bd5984ab7759dd7abd829e5bcdaf58838",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Inference / 1000 | repeat 5/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "7e4648d5313f84135e1750f0455501f91c94e641a8fb6873dba4d0b75fc18748",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Inference / 1000 | repeat 5/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "ac0d616afd39026f9bf34ecc62a7bcdd599e66598810b0b14b6dc4870f4fce4b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Training | repeat 5/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "86a2701d3a12e004d60ba968495c5d290456b231ffaf72235fa736f1423e761b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Inference / 1000 | repeat 5/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "7d5178ec9182a225ec2c487a9227c07c33afdf5797397d3a26b3a96f31d78271",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Training | repeat 5/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "0e2a591d265e9a7445050c0c1234d8a5cbd399c127b7283236beeb79a9cd11e4",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Training | repeat 5/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "845b58f49040bd5ebf6537e46c3fb13844159cbbd2cb2c355e88989e3a0d4dea",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Training | repeat 5/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "a36ccc9e497bf9f054c04832ad61261bc63c3553fb7b07623581829a32378d7f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Inference / 1000 | repeat 5/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "17a8691b07da5bad43b9350a7d643ba279d3c2c681d07951aa9f52b97f36e11d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Inference / 1000 | repeat 6/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "ba1e75322af21c552abb2984741043ceffc609649f5cbf93ea6f242f40378ad9",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Training | repeat 6/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "5279b1aa3c9296c0a7ada4872e74c42c30412481e1d436f9378a15caff2fe862",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Inference / 1000 | repeat 6/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "dfb018199779fe99a265d7a204fd89359575baa1f6705fe6adfa90a7a0733126",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Training | repeat 6/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "6b2d78a696dfc7ef7a50311304403562136b7b3d00ac913b27d44dd8b3421f5e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Inference / 1000 | repeat 6/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "920f3e7ebd0a6be0d50043162cd40d16d61e47cd6070eeeb8428866aa4eb023e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Training | repeat 6/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "b1178bad265c2570480c8ac1b7ef1636a4487a523c0a8640afcab154acecd14e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Training | repeat 6/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "23d884909a701ee5f3ba628fcd0962139ef807432d59b0b49125782901883b53",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Inference / 1000 | repeat 6/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "fb3981d9f59090a30c509ef64d9a7339bf5b2c84abb304684aaccfe836824f6a",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Training | repeat 7/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "87866288e0159b32860344de8339c61737786046a6d189a98f80277ee1fea5b4",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Inference / 1000 | repeat 7/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "11e1e29897bc57854a5b596739b771ea39806c36bfde3a1e0b4600faab320020",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Training | repeat 7/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "64b0237a7b74f0ae3627e5749fc16dd0f6cce138bbe9741adec579a0a90ef317",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Training | repeat 7/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "4f578b0ad75997e1cd701e6a7b14877f575026c8a238cc9b3eb17c28ce2d5fe4",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Training | repeat 7/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "e4ad1132f72cd4f0caa0c129267d0b1b268c26d34df04dd4bc5b26ec055748f1",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Inference / 1000 | repeat 7/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "968eabd1043511702fea0abe2a6d6fbea90a43c0e6fd07a7b026a71e391d69a9",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Inference / 1000 | repeat 7/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "2a3be3a9dbd42e52d66279b0c0824545d33d2a5ef6d31d123ff6e274502c596c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Inference / 1000 | repeat 7/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "242ba6ac3d83aa66a05f4d7a476fb30a1bd5f3d5eca93ba5fdf417f5465486a0",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Inference / 1000 | repeat 8/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "b6e80e3a38947fa323b06915f054c2c99537f8d34373f69e4269d981993da4ec",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Training | repeat 8/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "8496a0ee0ecd6c2fe0c5e95695665828a1e7ab03cb2d792b2b5da0a43ace6c9b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Inference / 1000 | repeat 8/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "f2aac02568b62fcfe0b6c4445d7835c01a9dc93debf05ee0c2c8a4886750151a",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Training | repeat 8/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "b4387d8795e975e5c3463162d876db7d6730352d9344e4b1001292353df15893",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Training | repeat 8/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "ecc37ab1d315605a74dbdcb16b93077d998756a3707ae209946452f04b926664",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Inference / 1000 | repeat 8/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "083fcac31e09ecdf28507fce70c0cd9aa85bfd945a5e242461527e725fa785d8",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Inference / 1000 | repeat 8/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "9f7a45c91841608c5139d7d7c32b8e33829c109f442234ccc96d0f74ff9038f3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Training | repeat 8/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "55e9632762b0acd4dddc2829e6c21adca53609360ea78ae7d3309528c75ae44f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Training | repeat 9/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "125c4e41f669ce99b6b45f7f55b7afeeaf7c98553730be55904c8855fd384c01",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Training | repeat 9/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "ea7279e57c1133917c1e188ffe77effbec1816ce30d1e217935ecd01c0e82e71",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Training | repeat 9/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "354e90dc222dcb67492f274e47888b97958635a5693db34b35925c508a43455b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Training | repeat 9/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "e53b2dcff6315f6b129e09f97628bf56cf0e17d3ede193c41e470eae601e086a",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Inference / 1000 | repeat 9/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "dbb9c4bdb42114c1a11c8d52e72630914cc0d780225fd83772e3117b6a0382e1",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Inference / 1000 | repeat 9/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "0cc60217f30e472965aaac26657e9303b2fc068687b3698e60d257dd31dc98cb",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Inference / 1000 | repeat 9/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "46e70fd8f61752a9b45739091622a5cb39caa062a7d9dbc4f3322c23606f1707",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Inference / 1000 | repeat 9/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "f55dbae77b351260d24fde20d2fd4cb3b093b70bd7e8d69bb1c2f9d563e6fd63",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Training | repeat 10/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "d94937ac822e30dcaff2838e2b2a890f77e78eb6c83b8f3ddcf6c61b55adadd3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Inference / 1000 | repeat 10/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "cce49d52ae7bdff496bdfa7f6a60e3a6c37b32961f4203d2c603ce562f611c51",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Training | repeat 10/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "67b955bd900f7bce7f18f376135dd62e61ddfe42ebd9c834b93fb89c4e1226e2",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Inference / 1000 | repeat 10/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "c35f040aaab9855a96d6391ddaf446e148ff459ac1072663d481f902586584ae",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Training | repeat 10/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "d49043bd984c680f39f9dc738a8cc1958dc4e7cd28fbb2a3a6f8957392b04618",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Inference / 1000 | repeat 10/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "e20f3616fe3a5f33fddbf753aa41fafb366650a23a2f7e94d27eaf1de6ff2ed6",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Training | repeat 10/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "c7a4296bb78bb55288c34b16ff571b3992c69b914776ac9767e954e523bbdb9a",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Inference / 1000 | repeat 10/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "79f109d8dffceebcbeff8304105ebabc4a2f0096d59a1797c39d03b41446938d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Inference / 1000 | repeat 11/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "f235e149e71acdccab81feae7eddd7a7e40c9b88f6cedfaa5c809adbcac5cabb",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Training | repeat 11/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "7337135813465e87272e03012a47c6a344c64e0eaf68bc5abed16a4a2f34d317",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Inference / 1000 | repeat 11/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "87c0ae4a48449beb96f49cd8648905a2d8ceca7aa2ab1af22e41c68756fd2639",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Training | repeat 11/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "d05d4af868fdc55708b684858ac6e47f71e2cf55b70b6eea1edb05aaa87d98ae",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Inference / 1000 | repeat 11/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "a8ed5a9aa0c584a938c9419c937f41fb098f98ef8f086f7bc64badf154abbfc4",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Training | repeat 11/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "f59ef6f2a753a169e5ace115a93e24353d130b8f18fc382ef7410b89d1174075",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Training | repeat 11/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "f42e0468039d1615b6d70ac38360f8972df07c65d00a052a0abc20ad1a9eccd2",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Inference / 1000 | repeat 11/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "1dc7b0b2e07078290cee4057f00166b98b5b2640afdc63210ef67aad22f7e3fe",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Inference / 1000 | repeat 12/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "b29c9dfb486802c2d36b98454894b5291b1ce469262f9c4f2226592e798eeaa7",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Training | repeat 12/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "321e27c5b35313e0a00610d81b49d212c657ad5dd9f201f018136b556ce10458",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Inference / 1000 | repeat 12/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "5cb6a864a313d875f7b61dcea97a0aed90918de8fb0f561a6a4cd4cc96c67600",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Inference / 1000 | repeat 12/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "22cfbbdf13f525cf34d38b0e1cda86cf0bfec6b38bb45d43fe02c2900615cd22",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Inference / 1000 | repeat 12/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "5d92c87685fb74299ec7ba9b72214b74e2eab7294398701e38d1e0c536bb2354",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Training | repeat 12/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "8ab1ee5570e316f350bdaf35eaae919ff89a81129cdfddf9933ed102eefaeeee",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Training | repeat 12/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "8c8faeb72720a829fb08a8c05ed1bb6885631cadfa387d50c2723d490618c9b3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Training | repeat 12/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "32079361e38ebf605f1d0885f68523eba62e23c352f5de4ed9e8eaf8498126d2",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Training | repeat 13/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "f0ba15eb21cfb4e39d1637ec679f64322b1626d66eb5fdf900083c0c8ccb0157",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Inference / 1000 | repeat 13/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "748d84cce42001380afc192cd58e0618de1d59b162c7e8125778db6353ea52c2",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Training | repeat 13/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "7ae89041053d9fe322e1f3abd52ea02af7d46053ab0e9b22c556339c5aa88aea",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Inference / 1000 | repeat 13/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "5de9cb5335fe1bea26a22964d13070a1cef63cf11357a59f6e7b39cf241cedde",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Training | repeat 13/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "70feedcaa340b702bc49435d9268679294474627084acb43138d73d164d13814",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Training | repeat 13/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "ede5de37bc86a29603f223c9596b7e87c9a07a83cbb46b1adf4b18efac3f7e57",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Inference / 1000 | repeat 13/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "b4a4db07ec31eaa49da42204ab7d412b300b861b6a249b7066d48695f61a7582",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Inference / 1000 | repeat 13/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "f158e177530e35d372b4fe7710536e9778918abed271eaa705396a1a439e9510",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Inference / 1000 | repeat 14/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "5b9234e3ca04f410147a0f2b2401bf01169cb3e6ac54f587550b592202ea3feb",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Training | repeat 14/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "5402a0c8641d2d73227306599a46aab68a7bcb8cc19d486cb9cf180ee9ce50f8",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Training | repeat 14/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "481bd38f045d77faa1ea4763d279841f938b6bf0880040e89ad917f1b0cbc559",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Training | repeat 14/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "4d72161df7b741630690ed30e9c1e0daec769da96ec4278f4d3da8995bf6359f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Training | repeat 14/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "684965e5d0cdbc13379156e5e68cd6406944b32f0d120411179360f3192cafbc",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Inference / 1000 | repeat 14/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "08907bd6381ff2aa4387b3ad35363683d24de418c558cb5514cee84582dd2d6f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Inference / 1000 | repeat 14/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "ee37ace938ef301917349e93e19877d4748e37cf18374f037f6ac25db6c58ece",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Inference / 1000 | repeat 14/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "472af04a5f7893a3ba189304da4fd0f5e8ebc5a02f5828d3ded545a5ec4cfa2e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Inference / 1000 | repeat 15/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "a1014564a64ccd3f65d595a285228448eb3e675b9b39e512ae9927b981a14737",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Training | repeat 15/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "562d59c8a498715ea9e79cbe38efa5e20b4c13db25084bc127fb45200c38cb57",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Inference / 1000 | repeat 15/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "f329556598100e9f27344d18fd8d61aa2976484f11bc12bd0bd46d18870d5a07",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Random Forest | Training | repeat 15/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "f2c82cf12eb32a0cd6c4b1864a300f38896cd97d812368ce6b0d651d6de8ab53",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Inference / 1000 | repeat 15/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "29196f03da886b690d91695029233029414325a103073a44da2d5efc33f082d3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | Ridge | Inference / 1000 | repeat 15/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "29078c0b7ba4bea252384feb99d37c571bbeb13b7f44287216f73164bd340c09",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | HistGradientBoosting | Training | repeat 15/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "26a4c9869a9fe321f7b3a52739a17e12014ec91be5d652d3d5b8305a2f1966e0",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Air Quality | MLP | Training | repeat 15/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "a85fb3badbe23c625d38d3a5623e8a606baca24d4f0b84de0b08e875393d6f94",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Inference / 1000 | repeat 1/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "b9e273a58deb3f73b524df27f35bb09d356cf6176ee948fb3b31d6bd3994790d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Inference / 1000 | repeat 1/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "e0e641a39631cbdce6bd73c09ae0e684c5ea0af446c5f7d7ff410b3748c6b328",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Training | repeat 1/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "850b68261613a338ebcace3e78b4a3f4481936602720b2c6cbefb7969b935d38",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Training | repeat 1/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "654a099ec0ac801e794202e33f954ea35db4dcb95f5ab657676e984360184b73",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Inference / 1000 | repeat 1/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "c71ed47c58d5040f0f9ccba1e7fab1bed1b9754fe6c42fa98284bc7d1dfe1acb",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Training | repeat 1/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "b57ca9565c51d43385112533185d4c65a2fb4003bf394c3503d0cf532027028b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Training | repeat 1/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "d98c30faf8b3a530aa578b1b9ddd22e151838648dcd8bf9e6fce491db8757a87",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Inference / 1000 | repeat 1/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "ae44e2b8a5877271853ec25fe5f6a1aa04c06eb787088b21f1f5808c0ac6f78d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Inference / 1000 | repeat 2/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "2b512e7a04213daaffebf2bde6d50d0d4bd132313b3d0bff07fcc9c18a52eb3f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Inference / 1000 | repeat 2/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "55353e466327fa94551fbb0e5ae9404ee282cc774464f1195a9227d649c7ab0c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Training | repeat 2/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "46e79ffabe11ccff78e46786508b6970c07e0486865a489df6fec366432a6ff3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Training | repeat 2/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "aef7193ac17eb81b1442a9cba1a802acea581d60810c57bfdfbbce6a7de73815",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Training | repeat 2/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "c8f8caa95bb46487e1c8c3f9ae4c727e3850141b68d9eda4652a4ff3c2901e77",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Inference / 1000 | repeat 2/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "210045e294cc2874a24aa5dda4a12f82e26ce43bc1842d8f182fbfefffe67878",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Training | repeat 2/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "2636063fa91aa477bb5441ab4d40819d9da40af4eef338d79671afc7d58b2a3d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Inference / 1000 | repeat 2/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "494b20b9a630723c70ae9bfcfb04723503e20bf48b096a43d5f8e8da33cf5047",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Inference / 1000 | repeat 3/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "b75afcdcdbe505ff1b7a04652e17b08f05cac6b5d888ba6659695eab0d4a2902",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Training | repeat 3/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "d56762947ef847e580d90c1c403c8b0239fedb71a9a2b07f4e29c430279c1577",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Inference / 1000 | repeat 3/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "2e54358e9bb3ed70ce6d97423e6dc99ba21e76ade59dca39c3e07271f9393d78",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Training | repeat 3/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "c10b85766c393566b5e129d976c17e0c86af2fe1ad040ed605c21445a4e2f4bb",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Inference / 1000 | repeat 3/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "e3e55bd9a6a142dcada005391c6b914e9d30e0cc0668e2dcf034f14d907a96b6",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Training | repeat 3/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "e3f3fb752ef5e885bd9b3965b1177339e335dd5b9616fb50b5848856472168a9",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Training | repeat 3/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "b8d1e80f571215fc61b94987c91be17c69a95979deb16bf4622fb2e40b2663c3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Inference / 1000 | repeat 3/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "fc1e79d3ae96984a924ea4acc3c155e9412d39c508ef2e63745c91b453728373",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Training | repeat 4/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "df4e586e97ddb474f425fdf8961fd825096d4d4a6325ca67e91bd20b49b6e22c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Inference / 1000 | repeat 4/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "2140cad08e4fd9c6b934b656b87cb1dc3e763a244105bbf970e602a52ab037c1",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Inference / 1000 | repeat 4/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "4255a4b3390bea23e2e1a03de17a6bfbd050289fec5db27cc8047a50d0a667b0",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Inference / 1000 | repeat 4/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "cf68aedd6d4837fc1aa57a50b99adce6a1130da4411dbd454da4db69cc260c5a",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Inference / 1000 | repeat 4/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "673df90b0dc6d33f04f0fef3760b012244e7a5b5acbe08a2e94961608f46ddfc",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Training | repeat 4/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "60caf612449bb1424f3ea4dec3cddcd47d9874f82bc902f8110f4649ccc10298",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Training | repeat 4/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "8025726c36caef861ca6e948d0202609981134dd9d604b0999695465fb40c3c0",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Training | repeat 4/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "9ffc1b8244ec632145a60406947011da658e21e76c1f61a75244d6af08766f88",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Inference / 1000 | repeat 5/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "41d6271f777a29476ab4d2783cc8eacc7c6b639d3141b201229c7b23546298ad",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Inference / 1000 | repeat 5/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "efbd9b3ebafb89c06342457d4da9414902b66cebb6738d1a08c90f84ea824568",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Inference / 1000 | repeat 5/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "cd7c92c18ae98da2053f0b0ac020fe176f8c8ea50a1e80d86268656a8951994a",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Training | repeat 5/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "8d9c62d689f59f7bc58d254d781516754a5b30aa8c65f70cda9fa90927e42133",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Training | repeat 5/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "5c492c6e07150cf33fc613077b47619f67782f17d1ac52764f67baeaf9b2c5d1",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Inference / 1000 | repeat 5/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "8b5ac843372d7f09ddfcde404df33751b85031770b47aaf6f58091e4b28e7dd0",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Training | repeat 5/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "565e43f6b15d2a0c84b6ed29acb4395b463790279e7d3ada3afb4429250e7d11",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Training | repeat 5/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "d7217ecdf4f2f9c998ee07d9c18bf0b67fb0f34837eac468c312d7a83c6bbca0",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Inference / 1000 | repeat 6/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "a986f2e626b51277bc6870becc5c519b59f624a97611e02e5be6a5a0e7e7e531",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Training | repeat 6/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "a1dc7f1829b6020f1c0ee2eef740597b52ba38a5e3f80be1f84d8aa3a499d324",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Training | repeat 6/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "61015d5fd41284f6ac1dc209c9d4307f23512a37a9add836dc6ede175651900a",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Training | repeat 6/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "ae6310ce99a67b6dc2d9bd1cd323562036e096f23eb0c886901183f1e343c88c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Inference / 1000 | repeat 6/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "19a06e60b622ae6784e65e372025ba5ed4b607eb20cdf4f0c949a6441036863a",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Inference / 1000 | repeat 6/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "d017f58c8054265e3170237ac7f4413c54772129f629ef35bf687eb8862df339",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Inference / 1000 | repeat 6/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "adc7c6d7e369ce1c195fc15883a7f67336be73af0cfad4482ffe3ff339f7ec03",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Training | repeat 6/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "5312579a13fc361ff20d8e2abf4ce8e9e616a260e58f455b7bd0fd918618cdfa",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Inference / 1000 | repeat 7/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "f20536edd1de9c7f807858101d72e32ba8abc4e09a7ce626db4315a9900fee41",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Training | repeat 7/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "cfc1ff83a3625f7d9b453b2e7d9357b34a6f016f868caedff9d42ec680d75663",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Training | repeat 7/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "99818eb98881ee15a993a31f3dac688827a4168aa675232da7337866a1e0fe05",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Training | repeat 7/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "8af02858c01c7ec4e8eb2fc079fba3e5f3ec1915235308fbe6a2fa83af9fd4f7",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Inference / 1000 | repeat 7/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "e8eeb3caa8d206d9a216652b1a7b756a76596be929daf1859071f7ccc5936889",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Inference / 1000 | repeat 7/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "363260ffce0b31d33d70f8b9b8999dc75227f8569353c7a6b18e1f602965e8f8",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Training | repeat 7/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "bab8007188ae23de75d2c7b86f8d19c75d368b29b5c1e27f58db63855d2c0875",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Inference / 1000 | repeat 7/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "9682f19c88fdee80882bf3d9ebb0da01aa081494d2a7d4b457d46ca2cc772db1",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Inference / 1000 | repeat 8/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "fe02ff53ad0dd655d92f4577b4fcd4818472496c7c81c35b96eb4a6e45fcd382",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Inference / 1000 | repeat 8/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "7bc73b360b24acfd079a0b8d3f36f634ba8be7e1134dbe1206864792c436a204",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Training | repeat 8/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "18e54c8b66ffe5a79fd7a128ce99fd4789d15382727d6f54d22c2b9472f291d6",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Inference / 1000 | repeat 8/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "b9c766af150e1cf4a0a3c810df0b5c59a907e30de8d0a03187c2d97d504d30e6",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Inference / 1000 | repeat 8/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "86d80a2cee91b7e2fe0627f23522007dad5043544b56ff5d9382952f54159353",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Training | repeat 8/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "bbc3ccb325462ee280fd287dfae44062fd782b9c70faeb16f6754758f76d65ea",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Training | repeat 8/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "7665656e01877dbd0fff17d811a6d963c4765659c42437bfd599f2bcf4a3f165",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Training | repeat 8/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "91096e5c5ab0b9bbd0d5cd1fbb80017ba4c55d01d53e9c6b23a73b1ddb918fae",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Inference / 1000 | repeat 9/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "83839c64ba841f122240ccc74f5c1b6d5a7c81f673b2cb18533d9afdf36d9822",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Training | repeat 9/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "8ffd1c5f45438bc431eb3bc8cefa177114442633f5438f0afacc72fd2317a446",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Inference / 1000 | repeat 9/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "8cad1859ffe01e4016b441ba3fc62182886eb0b933b39a0d987df517ebbd050a",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Training | repeat 9/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "5e95545dc7da5cec24a564c1f3700f615e04773e8999706a1ab5792c53102cfb",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Training | repeat 9/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "48605bf5f1c7378af3b9b7aa4943d9ccbc7411a4f4b7194381e7ae0051bc63b8",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Inference / 1000 | repeat 9/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "735ce79c37420f5500f05f36b235eabd3926d95687cf29b3b0857ab642cd422d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Inference / 1000 | repeat 9/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "89813d107a90da5e8a8f73499c6bb626d8ab75207b1e36720ce66f34a20cb5d4",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Training | repeat 9/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "7de5e377c7e2c1b0efbf3dc1d2c93e78bbe85f00903703b8e1e76ee4a394bd89",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Training | repeat 10/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "a8bb3b086561abc5aa56fff185dca1ef617fda2382b117d6329026c44ca8cad9",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Inference / 1000 | repeat 10/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "e51096243e4674e6481ee2bbb731950860c25fc34f67aa410b07e84161b57ed3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Training | repeat 10/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "e3390ff355f6df3c1e69ca6158ab5f586078bc894102f5343daa01ec66ec4ec7",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Training | repeat 10/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "20bc02482e37e7fd22866c67662007ec78ad25a884039d0ae54c79c889aa9ebb",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Inference / 1000 | repeat 10/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "5ae5ab568fee0dd99cc32a7c4f4bb9ddee0daa4063d2f59ae0f5ef28c743f6cc",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Inference / 1000 | repeat 10/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "723fbbf48681e1a51c9963abb2ce9273554d8b08bc88da160f5402584d8bcddf",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Inference / 1000 | repeat 10/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "1870a6e5bdc60c98405c3125d6a08cab2a55d19f3e50c77d9eebb234f68723ee",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Training | repeat 10/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "055ba566e0685cd78f5941fecd494ef363f7144b9aa36182927c31478a02c2a7",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Inference / 1000 | repeat 11/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "7898460cbe46d20043f85ef16626c746ac91947c5c9ac0bd5e58c52674d9463d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Training | repeat 11/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "fbd28c07c67b112f9fdf62d9c7b274356f0349474797e372904056c976b6e6cb",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Training | repeat 11/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "cb8967e9f38381393f23a54a2c0f4a34a3a51b4f2d9309e9667507230b2863e8",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Inference / 1000 | repeat 11/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "e02f38e41681a552ce99fc28dd563309a0ab1880e2520032714e67fd030fdfb0",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Inference / 1000 | repeat 11/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "7dc09a765105360d6a552988f2da5ee75fd5da3e779752ccc1ed6e917a20b47d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Training | repeat 11/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "0898bcbba4a494403491153ed9545b6cbe15e674f01de9dcddaa437ffb880079",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Training | repeat 11/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "04fa1bc005fa0a983e7793f964f6a060181590c43dbb1fdb4194a5c6eca6f3de",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Inference / 1000 | repeat 11/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "844a1957d28e99fb8044c4d972ea604401732600686ebf888dbe0408d5e5a69c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Inference / 1000 | repeat 12/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "d1f49823268f2e3d25886d5ac0df1482425efe9b8640728e70588a89551d2cd8",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Inference / 1000 | repeat 12/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "64165c67bc422300776f3f1e07ec8c80006708c5bf2573f704eecf03cf7b8e1e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Inference / 1000 | repeat 12/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "df5106eabcf31800ee828f1217f2afb6d3df803046e08cad6ac355135671cf45",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Inference / 1000 | repeat 12/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "81f4423877a3e047a8ddf6241a20480d039f47ced6480c182df3f6f0eff72133",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Training | repeat 12/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "d234d1c8889c1b1ba43f6f8f43ccfe977a32d78dbf6d31be8370ab5a8080f606",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Training | repeat 12/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "8a5c8aac503beba35fe87da694ce760ba626436e90cd583821aca1cfc2907518",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Training | repeat 12/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "53b7268714c0e6b4e49d8e1c113707200d3a8a7752837d386061314e9b76a88e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Training | repeat 12/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "189dafd8dc9d16fc5b7fa78d8831af4ad2f9dcbd4c3ac52eb530553027cda0ab",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Training | repeat 13/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "058382d8323a0311b8677bc92aba53d5acdf44c12e61cc54be389910433f1bd4",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Training | repeat 13/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "72dd9c4f0f9712b03869a80c39b77634e91e930e0e4dc180611354452599f8ac",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Inference / 1000 | repeat 13/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "6dbadeced8e6eedb396dfa70a77e22cc49b3e2aa636e32934b69f753dfcf65b8",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Inference / 1000 | repeat 13/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "ba41ba10f6c896a824ac14e6d88d6e2cbc0449f831f202a1dc82d6da8601dd5c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Inference / 1000 | repeat 13/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "f17ba229f9d8ab057bfd659f92bd9866145a3a5b9f68b2b4e616f9ec76c31ccd",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Inference / 1000 | repeat 13/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "f46625d5823a42b28da2a96452170d9f850a0301df5354043b30fd035f8ff293",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Training | repeat 13/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "f4db16ab2e3bf7c55ad39716b1551d4aa794c9c815c9b2473ac238edf0b9e145",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Training | repeat 13/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "0366b49ea85959f19cabfab668059e196031dca3cec06a36f49884211de1a1cb",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Training | repeat 14/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "310ae09d3ac47c6588082907ef626faa72427d459357413e9e7360ac501a94cd",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Training | repeat 14/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "dffe0048bf31768ea3fc38c7bc07b5b1d8774dddd2ac8d0c2ef6f0314a74af6d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Inference / 1000 | repeat 14/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "38df030086fcced6bce346d112ff2675895003416fdb0b6ba950905f62abca9f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Inference / 1000 | repeat 14/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "cda225ca74cf590d357044359a0f340e86bb6f769f593aa9590ca123f10b9729",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Inference / 1000 | repeat 14/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "01fd18a7c35126623036724e809c9165a8421fd9f689cac86a3b5a056e15ac63",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Inference / 1000 | repeat 14/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "c7e714d5bc6086fd35dcfb15fb42ea58c5d9b94b97a1cf8c228382e753f0caf3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Training | repeat 14/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "da84a10acbc02f7a4fa5629df3e8c964588f74445751098038d1d8ecc42bf688",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Training | repeat 14/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "2c48e98ffddd1d60f3ad17f559fdbe50d4f1b950f26fc914cde2144097703619",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Inference / 1000 | repeat 15/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "509ff026781a26ce4dbce105ec7c6e5856185e426601a2d9ee0341ee4da8b561",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Inference / 1000 | repeat 15/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "f19f0ba33acd50aaa29ab0151a50c56baea1d71f533507f6893333803bc86267",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | HistGradientBoosting | Training | repeat 15/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "50e9e741fd542487230be4e4deb80e5300d9c0c47a0bbdb7cafb79f2e78fdfd7",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Inference / 1000 | repeat 15/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "2feed77aa8912e4a7e95cfade0f8f724e64a9948df9bd78789a5860273d8c78b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Inference / 1000 | repeat 15/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "33aa377347ca0b1701b122d60fb8b758f7f734d834ed0f7b70b9980f9af20c3b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Ridge | Training | repeat 15/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "fdcfbbd1e95fbc8c5f42c840cfb1fd3110d4d588c88174457380bf90f51f9fcf",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | MLP | Training | repeat 15/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "dda5bd86fa2c4412bedf9f4b2e8cae5bace723859473fa557e298d0f9e852877",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 | Appliances Energy | Random Forest | Training | repeat 15/15",
+    "stage": "RQ6",
+    "status": "computed"
+  },
+  {
+    "task_key": "af51c6c7fac8becd14c9ac2b58fab48a07ab2ca6ff9f1212b65e5ffe170971fc",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "RQ6 phase result",
+    "stage": "PHASE8",
+    "status": "computed"
+  },
+  {
+    "task_key": "85200704a8d33bfe5c009ed56d7ec4540f144af552d49c6cec1e194ce60583e2",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Aotizhongxin external bundle",
+    "stage": "EXTERNAL_DATA",
+    "status": "computed"
+  },
+  {
+    "task_key": "273794244d191f11045e215dca73933e658098b200a99d922a26709ca05aa6de",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Ridge | config 1 | fold 1",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "dc3579214b40d35a6a2d885d08472275a21af15bdf52b315042f7063289f7088",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Ridge | config 1 | fold 2",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "98deddc433fa47a6d37306e96f7e692328545c230cc92946f75eef17cc219758",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Ridge | config 1 | fold 3",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "2a735aa6c6e7e86f374b317908f97f69238405294f4126e1aff252a15bbe9a4c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Ridge | config 1 | fold 4",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "0c72bd7fd0b128fa5f2e45d6206ea48367ffc0733670b1919408e4cb6d8f1ed4",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Ridge | config 2 | fold 1",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "5bbbf535f8de202df9a45c89672057e28e41962df729d06556a6efa568e91693",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Ridge | config 2 | fold 2",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "6de4db0d42701257bf7fcdf6fb3c8e4a71c5c736293f4e093425fad156466eb7",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Ridge | config 2 | fold 3",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "648123a50b61631fb865e264fda4164f61e016fa3114299b60dae0ec48d9792d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Ridge | config 2 | fold 4",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "85012edecd6aaccff3e45ac6e5f1b28e2bd77d60bb7cffece05b96f9e135f428",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Ridge | config 3 | fold 1",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "05e5e484de510b495c2d99bf01529a6666b1fa2bf9b73bb568cd3e54746ef277",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Ridge | config 3 | fold 2",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "561e5d877a1efa9d2644dd1070f69c0f6251c68e9ce299eec2328c766293664f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Ridge | config 3 | fold 3",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "95db3e4152e86377f3da454854c768f2e5291af3339d4c4cd377a946bf96516a",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Ridge | config 3 | fold 4",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "b0392fd68db4eb06d2de8b8ad9c11353dee0ce3d0072f62b1043b71d0f702e10",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Ridge | config 4 | fold 1",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "5cd6d530d68a80d9e6eb004270e6624d4436ebd86ed3d80123c86628d71c286d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Ridge | config 4 | fold 2",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "7e8359fb5cb226f60e37d8ebc7d4fce33e5aadfe4d368502028fbb86979e539d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Ridge | config 4 | fold 3",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "400f88093f92da2bbdc55fbefd99cddae40d906e16e05a46cc225f6e5c85fa85",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Ridge | config 4 | fold 4",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "37d4907bc38924bdeb0b6421f8cf893e9153190ea6501adb3d6df2c9c159ef92",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Ridge | final fit",
+    "stage": "EXTERNAL_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "444df9397fb15726e0a7850e25010dbf985825bf89964ecbd76a3d6e95b22103",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | HistGradientBoosting | config 1 | fold 1",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "2f7abe607c89a6a22b454bb82e104a689c0be271bd6b1e75f11f8fbc35c90c3c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | HistGradientBoosting | config 1 | fold 2",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "847e62b2df5639cc9b07cfd859da0289b6ce15f46e0fee6a3aca3f59c4969817",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | HistGradientBoosting | config 1 | fold 3",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "1c19c876874ed553a93ada6700e37a0f3eb4f5fa2fd4867c42b087f76fd2e22c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | HistGradientBoosting | config 1 | fold 4",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "85c2d829e483514a9b444f98c58765f54b2033c323df53943bc5728bfed9f091",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | HistGradientBoosting | config 2 | fold 1",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "eabf23eb52e1b2d1b0ab75d3f52e71f82e3faee373a64b9fe930c9429c5eabb2",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | HistGradientBoosting | config 2 | fold 2",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "250342f2ef3d0103290c8fd5e0b7e0fd61b72ce2c3e54b98bcc916bdf70c850c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | HistGradientBoosting | config 2 | fold 3",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "6a884cdde4127dbdbf8a5f976b3f897265744ae14f824f9674a0d4d7505a1ef3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | HistGradientBoosting | config 2 | fold 4",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "2f432c6da7df7c2fff9fb69b4ea251cdc504387e29f2daece8c5fc14d04ba626",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | HistGradientBoosting | config 3 | fold 1",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "48e009f468ed32cedc3e78926571c753e17c389cec363aea07d7fa5858f8b21f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | HistGradientBoosting | config 3 | fold 2",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "153a6d582f10395a612ab8ed539dec7fb12bd2e22238fd05b49fd68ff464a4a1",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | HistGradientBoosting | config 3 | fold 3",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "c5378adf5a7982a85a06eed1c244a8868218b90d6869fe0cd88f8cc823135646",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | HistGradientBoosting | config 3 | fold 4",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "bf7790dec1ec9f20811ad57c334defc225011f18fec5cfe735ac77431365e1a3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | HistGradientBoosting | final fit",
+    "stage": "EXTERNAL_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "ff9a90abca4ee34e1dcda5a16a720af883625ad18c17491cf6386d027a7b8d11",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Aotizhongxin external interval calibration",
+    "stage": "EXTERNAL_CAL",
+    "status": "computed"
+  },
+  {
+    "task_key": "d2de25d322dcd5b3076a7e684714f95312af2e1586dfb40f0985fb9b56f0a769",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Clean | replicate 1/1",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "138fa4cfcfc24bb94e03b1d2384d83e9c1e9051e5f075f24735bf14921e40e30",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 1/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "e54c33b3202a62b0098cef6bb085b9bbe54cc799ef3e1c4c17aa573fb17c6719",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 2/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "5cd1f4f819a2c74f3e5840a6597189f047add95297043326083718f685d109c8",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 3/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "3cfbe68d7c377350eff2200faaf6c27ffdb23160fd7bc489178bb63c80b39f68",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 4/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "81651463c1f46362cbcedc2202c8d355b67c5881249b3d479f23c64c6bfc26ac",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 5/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "aa587f39f662667a260a1269fd1bd7f8f25434d19e445176c36dbcb85803685e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 6/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "122cd49e3a0b0129943ad90ea301e4110dbc53126da3cce09d2c3b8429934283",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 7/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "5ad2a9e4e9e32cffe517d8e118bcc2672c0bda0b1b2ad1ce74a1297a0e58530e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 8/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "84c7735ba80cf242be39cc5f93423a0e71a2ac7df85243865ab19589f8271a1f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 9/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "7caf9480e1cae322d726bb9a3ab6e5b8bf8a3c29b6fc5d90eb071b67c21cdd67",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 10/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "d938128b5049afdaa89c5aefdb34d3f9ad0a6630f9f017da9bf8c43ee0df55f1",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 11/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "cba0af24a6744106f0a07498ec66b8c6547377a94153d96ad283be33ab1985be",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 12/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "d7a6cc4f029cae39b9e66fa35edf38d3261212b22dab0818627538708cfde403",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 13/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "b613863fcedab0ed91dd31b0ea87225c6cb8672a9e9a14d644e274119952f99e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 14/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "cf6be4251f1b3ae8c01497af1bb225bcc7ca497ea2bc74a70f25046fbe734a4b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 15/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "67972f3f84b786cbbce60fa7a88f5c9e3df8c39dbd899e576b83728eff4508a1",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 16/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "e44078a2f8b07da394f877f34af56dc72beab78ce69c3526d972e0046594eb22",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 17/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "511284bde653ba95f2b37f0e0ee32ba8152f88338df787ab306fa55f8c1ae2a2",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 18/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "e8f8b465ec8cdc5810338499cb45ed3a46a9dfbd7c46e3cc9ebe3a3be342f6ad",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 19/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "c6901f963d286b03b6a39fcd71b2142c75a3b76cbf07b6619a221021bff96224",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 20/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "2fb782dc2c821bfd986e507cab942426a16718b85bec9f3960db8e10cf5eef63",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 21/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "418e8bf845f6ef3378d8019ddf258b6dbbe46f3cd90e758620d3781b61148594",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 22/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "dc462ff1a3c0649449e7bff8cf09415e7be8c5bf56b79facf7ed5044b2f16aab",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 23/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "49fd5130fa3453ec803059cebf9b68e963b84e16021f3714403deb22aedb8875",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 24/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "83ad816cf4863447b611e5e98cdfdae02228e64a390da2bb7024e76ed90089b8",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 25/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "b961d97f86310eafe60f25f6fd97ad9283dffed63e9f2ee3d553f57c6dd5c6b9",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 26/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "c48a4ffd964e4a6c1fefe37eeba2b3d68d5bfa295684f35999a6564ad4beed87",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 27/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "deac0751d6c6e0a4d4a66d75e64defb66f96b5ea446dc366d2afd1a324f01261",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 28/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "8a1f8c4f1f43cebaf0002b3f82fbd599d97a320a562bc666a397216e885938e5",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 29/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "5a3739b8d808242b924f6d04cf962aafba129e15f3fa13b966faea0c2b3ff8f2",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | MCAR 20% | replicate 30/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "da1a2d2866161b66ff128f3e60af8b08c3d2da66f5f4665c10bdb73b31fa4750",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 1/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "33e209626219b6ff0aa73230a574fba57c34902e482e11e84b6b7c0cfc9498c2",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 2/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "d906d901a59636e5fb19c5d192d6ed5011f4fd73a012f76062a18c8bc522886b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 3/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "6ad0cdf6f1e68255eb73f38d5b8b7b18953a2fb9d397e65fdc8075b80f25dd75",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 4/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "e4e2188ff4f56a9dc1a6273dfaeb71a6ab1e6359dc7e7a22e8a4cf91043b19ed",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 5/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "eae42aa987fd373633ce2c34a127cf8ed66fedc43dff45511d4ea08cd033f03e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 6/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "a258a4792d36ccd1ef3696fc336dbf3db72fbae680f5e35f3f747992eb8718fc",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 7/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "d5cce24d1a7d05b438504db410da2755489469e39d30dd57f344f7f896917eb3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 8/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "1e542a97d2183be404306044e0d80f0746105ef3e926288492b7c255055f8f05",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 9/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "f1bd789caf0b0de94f312ad58b2330c26bded0389b14a7953eede14f3f99a4ae",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 10/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "ec30b1f74bfdcff7eeb04e4bdff44d9b82e17965203d9465726ba23cb74e92e3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 11/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "966d85d0233ae0dffeb2cdc3854b932286e3b1d92ded60c686652af98286509a",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 12/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "4ed85885ac85803ff8f849d275127195cf5991185b73dbd6aff72be8e9b036d8",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 13/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "f6857191212ffd06a8d446a19fb034e9a8e27ff0ad94d5943ed9f983d29ed9ed",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 14/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "a19842a910d1f53bec98a9a7525013d2155658d1957c7529533c365743b75637",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 15/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "e80cf67a68637a5a284bcf602a6b160576eb100229318c1adbc76ead021724f5",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 16/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "981937c9ff7d95d2e99cc24dc5a2dcc5724ef5d42e958268e007fd26a72cb374",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 17/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "10e86fd56e2c7be36825c4d674772869ff6136f6b3a62ef0f3dad6ec275db414",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 18/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "dafe1e145cb180090cc7d6fdacd4f0309cda8ee5bcc38230dd3c4d33e8328f18",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 19/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "c367ef7a20cf3f67751acbfc204dd78d5fc67f88a6f8b1c93f09446e0b90f632",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 20/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "3e41de1162d60b5bab4c0f9957707b4db40cc526d3e9534783238eea3c30761e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 21/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "25923529c093cf8b01f46641e2e8b756dc5cfc6ca6da09b8486a95a0c5fe1a9f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 22/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "01e5f7b985b669d1d99837ac4a1b5889dd1313b51201fd27516ec32edb564c6f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 23/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "392510f2c86c7870f3e97a2b2bbf4cee607e915058a55dad2983bdb28146dba3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 24/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "7daeeb1a6adc4f0b6c344f17d4551211675c00975b7330104b21da10bd6ffd51",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 25/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "cc889c1b700d067bb4ec095475d179a285323d0923f85a0396123ad3e202dec9",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 26/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "a9cdf5f3941dbad0def9a30e617f1bf3bd4f04a55d796c585b9684c18ccb16ef",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 27/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "43a74c6d7b2fab129efb11d752284f208dc4feec94cd89aee73a168288230718",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 28/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "49389b8e52a0a61ea3413fafb37f099d61632199743e306620f822de0d9807f2",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 29/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "fd9eea520794b0345ca827cc8ca737a0136dc0f5c49c3894dca42eedf2e3c91c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Block 20% | replicate 30/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "0640ccf3c44c0e312735e7eb26e3e05b857a281e3ce3ae9701a576e00f702c2d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 1/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "51b6731ca1c83cf1b9ab4703553c9841850e715f6ed1d299475fc5639da1b380",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 2/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "bde2b6519492e7e601f918b637ecea1593c9a9c99673bbf424d8b80db3e39759",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 3/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "f8b50c0edf35f72a1e2c237b2fefcab71b1733210423ed317a3f0c08286425ec",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 4/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "546cc88971d72ac10e66fa3528362dcdbce28891e3822a25d620d5b0fd1830eb",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 5/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "fd3ecd39596d10e0de9c4a6d992ddb2b4d93352dc51b77c4ee6687fe096f6553",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 6/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "98862cee6045ca97a4dec70b16996ffb4b5639404b3014e199044a6c4ad085b0",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 7/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "c8dc07d225df3fd14abf75869d7bb4fa10fc7d71b0e63e1c2dc5e676465ba92d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 8/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "ddb8e4a734f71553c3b3e894bf095529afe82cf23a0598661c69983a860c0be5",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 9/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "dcd73cf0d19fa4aec433d3919bd1e24223667bb9b47f4c57d17716cd25d4d763",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 10/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "9eb658d89cef3ef0d63bcfb3064c0c5d187ea05a2c2d7e038c5f726966576bfc",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 11/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "b11cf9b88b134e9fee852b8d12b4d8464003c339f844cba22c5d7ca7ebce16da",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 12/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "e5f149e030befc8c6c939b953ce17290530c7da12fd78872fad3db1f71a2fd45",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 13/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "836ba56033945c32a855ef3a9b2adc474968a0280d8583f670e352ba97a2ad44",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 14/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "521cfc52247f344e62391b9628d425d79f175ec84533eadfee9ec632342fbeef",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 15/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "fc3a55094dd24df01015686ce391b3a230dcf59c78284239f694ebd7b8474768",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 16/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "23247cd0900a53350deb949764f78c063d354f8b7ed55bdbba283865f79e3df1",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 17/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "c82be85969c547673954ab90ae2a1ae78dd48693f0df87209a26be55c03b661d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 18/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "acf4514e469366939fb0e5732972969a03afad09aca6aed31ced6c88429040ae",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 19/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "61542f7ca655d8323d1e0a17b351ccefd0bbf622f54608ad4071cff00b20417c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 20/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "b78e049419514ef93b1b66c9bf3ded5ae2292fc2ebf2aa754da745ce9fcf1455",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 21/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "63f883d6fc253a90b764ce365a969993359095c4a1f93252b770acf72d09caad",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 22/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "c5e96c8f4389ca031dbdea47040a2588cf292229fb4f4aca30aabb1f720848f8",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 23/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "934447213d0c71e8eb414823d1ac4e9b4115eca85035137e4f6ae4e039b1ceb4",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 24/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "3ee5bedbed69c1402129c0353025a59e7cc63b59872875244c72d3cb9611891e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 25/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "34a565d4375810b3993e2c8c36ad790f339d2d23fbd1444add0b70b5e12c4ade",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 26/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "37a983481c39dc0691cefd2c4175e5f0154d13b8de27b26a0eab321f655e5217",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 27/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "561fa36c280eecb3530d9bebe181db637121c1f1df1e8513aacc4e4c5467e0e6",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 28/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "15e5d63d70321bebd64ab453232cda3096a5a8a2cfe8b27555a12af5728491a0",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 29/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "8ac20d293744f68949d3cf626713f8f7708ff7377ecab4fd7badcd276dd8ce6f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Gaussian 10% | replicate 30/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "839764c732121e0fa1ae141a711409158164ecd6787171cfa7c36f8692d50255",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 1/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "821f266a9c2cc6b7a9f0cd6748adf6542ded9290a2bb14303fdb36e462afde49",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 2/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "84d360a874090c8e5cadd0f3bf8cba4dc0114b0510a5562303f0d2efd3cce8a8",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 3/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "d603fda381ee5e38e162b4173529bba42447c78b8f9e77d5fab2ab0d62793fe6",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 4/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "e215907bf7fac64df148e4a46a83e8f4a9fd122bd053ee65e7ac36038dda4dbe",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 5/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "ccf5e5e8fe5bbeb2d20e9857611a43a7ba1037b331ff03cddb11e6f56df06387",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 6/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "f2006108a8c0e2c07baca7a7336956b292c0a51904032fd71c1007e6446953c7",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 7/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "906c8287daa52b53b9b8ff0663b6063add2243485e218a5179da8466a46c266c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 8/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "24622ccea04be6f09abb6306fe00b23a351183b1e846e8b6dff87796fd5bb1ff",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 9/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "13a4b1ba0dc07a1d0b1729c7e0a9e4489feaf443794ed16ee9560daab2c32c05",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 10/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "f5d1289d225fd58705ac047695e15f77abc6630eaa552be7eb720455e3dee7e0",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 11/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "915f6e07300c74755756fffb44ad8574c339cc1c57d9072c576c33908a33f274",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 12/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "af2a21147ed4a295accce53d8ce70427508eb1c57d50dadba35813751c94da7c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 13/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "46f3e3cdc3aa41a73398469f6210503ec615a2b945a183b21e9113a91f80bd4c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 14/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "1b59d23073874baf85f57582351d01880502078297df3f359e070e87299f8b9c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 15/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "35ea3b1567a5ab19ba5621e20cef331f00e01b0aa97c7798935935ba7e137a57",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 16/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "16fbd826920793c6281764678b4809702ed9bc6e38684b245e7fac3eaa3cedcc",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 17/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "4eca1d7916752e2816d34bfd1e7e5ab09853b41f85e7e121b7b815dd27eca8ef",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 18/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "68a6bdaf3ab3d7f3cd654ec7a49c91de22992c1f8d5ae28c7e62acac7876dfd2",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 19/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "74afa14c03981141f08615cc247d7e35759ebb9d2b035169dd2a88b9acb7064c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 20/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "dd63d92a02f5e157a6887eaabff6030bdbf02168c603db9f745cf27e0b921899",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 21/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "84f786be157704e0647f5e854f4dab7f133121f89d5d8da533ccbff056dcf84f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 22/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "4dfa3af0d94e361f39636a077f043f0af7dd33fd092e416648d95bc8fa2bb685",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 23/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "032583aaa3652c15821b8a60ab522f31f2477573f8e68d5cc60694f14ea441f0",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 24/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "2bd08455ce84f964364c0350a0ee00e27275552b7fc7fe477d5d84f970b18a3c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 25/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "d7260a96cd61e1d3594ddcbe233ebb579f1dc197a241ca2c7b1e24d8389e7ca7",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 26/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "9bdd932e2f2ac76df075e10ca838967a0358a4313e244ed8c75e151e1c64c8fa",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 27/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "67765d57f58b142f51644787263e37582033c51de5d92b3acfb70b26cbe7b72f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 28/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "bf21d82278166e127917fc51a6b2b8c21976d1041b4b1bd0a15fd4ca93bb112e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 29/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "c2a99741c8ff0956d8613342b31c450aacd1776a766d5a4033d0685b83bb7951",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Beijing Aotizhongxin | Abrupt drift | replicate 30/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "2fdbce3a7ccdc2c56341f2f3cdeb03ad8ace97e68ae3f0850babe254cdd0246e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Household Power external bundle",
+    "stage": "EXTERNAL_DATA",
+    "status": "computed"
+  },
+  {
+    "task_key": "24ce42e437ffe853e767739de88290db4389ddb088944df1c5e8c8a5522e3760",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Ridge | config 1 | fold 1",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "42b3427711c5c069c310b00e0e399d1bd20f997d94d3e7d9b8f27b843f8e6777",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Ridge | config 1 | fold 2",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "124d5220967bc92b342c430f8fbe2a0595868e1dbbbd5344a15b196b63b30c12",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Ridge | config 1 | fold 3",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "198b4c2c738be870380d0aefa298d435373389e244b05128a070005d73da23d1",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Ridge | config 1 | fold 4",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "d4a18d6b4eae1fe27bf3f13cc9d691fab7e0f58164a40b2daae79b3b92342748",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Ridge | config 2 | fold 1",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "c68b344d4b929e4a4ef7f058cde18ca071a54c31aed7bac7c350efd9548e8466",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Ridge | config 2 | fold 2",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "49d87e1a6b55f31aeb753f995568b230b6b65a2a8444daace7409afa9cfc10e4",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Ridge | config 2 | fold 3",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "e6166bdd3557bfe1a306e6e3889692ee9da0036171a405a0a2751fd8953e940d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Ridge | config 2 | fold 4",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "18f82fa53b1705fe4b92a2092e948284600fddeb5cc02ddd514440f06c062d32",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Ridge | config 3 | fold 1",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "c0a92891960b092e04fc53c00d4159de1111c7f23969c8ba98158ba3fa8936d0",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Ridge | config 3 | fold 2",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "96bd90c2171ac458dbd7eb9d40ca0d89200346f4de9dba6afdd516bddf9252fe",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Ridge | config 3 | fold 3",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "6cfb7be368dca8dbcfc056ea7206767f98272847de4dfa8b4d881e464c25a96d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Ridge | config 3 | fold 4",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "b3f57d19ca369def88f42c214f54c49c05cf06f9f4483de9499fc32bae6d2a9e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Ridge | config 4 | fold 1",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "f6d8c545f49ad6efb55b40dee357859cb3390bbf6c0de3fa53d1fec088111520",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Ridge | config 4 | fold 2",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "ae050e681e9f57de09de05d2fc1ce173ac77a12c7b62f96116c80534038da35c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Ridge | config 4 | fold 3",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "d06332aabe87c32142f71cdb3e0d63d74d3dceff0b2465f2aea2017b93702963",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Ridge | config 4 | fold 4",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "f03c45d2817df1d1afeeb8c2ad5e85130d31088c8761de9d3ee941ee248b83b2",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Ridge | final fit",
+    "stage": "EXTERNAL_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "6f51fa7230b3696df9298f5e2a3729b1eea88ddeeb66d9f7d9c572bd23fd7b73",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | HistGradientBoosting | config 1 | fold 1",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "13bdd0aaa914b7e5e8cf446269022438094081d3ce915b0e323d89bbaa70e140",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | HistGradientBoosting | config 1 | fold 2",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "b163b9a62f1039905fa7b2fcfc052f2df6e23237582e47bd72d7f9586d4e3f00",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | HistGradientBoosting | config 1 | fold 3",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "530e05029b9964eb23e427f2a7f790de030094a424f56a818a75536d91194047",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | HistGradientBoosting | config 1 | fold 4",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "7a2a6286d2aa6bf6a85e9199ec052d4e09b2c9c11a0dd780679eb858b783a8fa",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | HistGradientBoosting | config 2 | fold 1",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "a1e0e5fbb366aa770934c1faaebd279fab36170b9443fdb72dafd90d2efa7bf7",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | HistGradientBoosting | config 2 | fold 2",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "13baa0a02983353e953b38861547dc5c6a402bdc20a41aa7c9e6974f2d8501b1",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | HistGradientBoosting | config 2 | fold 3",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "e8c8abede8163e7c1577f9226d1c667b324768a6b37796f8ec29e0846b17b953",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | HistGradientBoosting | config 2 | fold 4",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "ec508eed1da186e4052c167c6ea6fb87ff596206d2b23203aeac93276f029e79",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | HistGradientBoosting | config 3 | fold 1",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "d2804a740a9b8f228f29ea979ddc1fc314e9730a3fd089e9997a4e6ce4d0102b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | HistGradientBoosting | config 3 | fold 2",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "9dd4285293d2b0b7498fd1d982e12cfb8c71e7893484ee93f37875c183ee7437",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | HistGradientBoosting | config 3 | fold 3",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "c36f92df7e2733177d21c9954a324a5a8d60185eb9924f3ffd1409a9dce7c0a6",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | HistGradientBoosting | config 3 | fold 4",
+    "stage": "EXTERNAL_CV",
+    "status": "computed"
+  },
+  {
+    "task_key": "807a5561bca024a92c71f66f39a14df304aab27b1fbe7056654d61cc14b354c2",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | HistGradientBoosting | final fit",
+    "stage": "EXTERNAL_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "62a7fa9c65c0c772ffd36c1f5f6978d1f8164697a38f56414758693759f487a2",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Household Power external interval calibration",
+    "stage": "EXTERNAL_CAL",
+    "status": "computed"
+  },
+  {
+    "task_key": "22285bb44c36c07353b7578e2a0b3f142a97c2c78d868f8d60d208649cb00b77",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Clean | replicate 1/1",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "dc06c75068019d09298730a65cef6c67cd3a88169365ee96b62ed680106244e7",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 1/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "1baf839c76675de3cab19962316a677c59f6439d7f24fb3716af29dcd363ec5a",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 2/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "a1bc41252d1e61257c3bcf9da5b33d610c11cdc883c966507283ee24505ba7e7",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 3/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "21692545d7abc66ac9c30472829e9323298bc5f12fa84ed36c1e072bdb384d62",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 4/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "91429af816077f10ee31ce13de3514434012c2eda0ec31db19f3ca51545a3389",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 5/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "9a52e30c39f6dede9e8572d6ded1df9714e93a5456b28cdb034d37dfd6bae9af",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 6/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "4b21c945f6918e03430806d2383e95c8816ad448ce065351b5abf2b2e15a5a17",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 7/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "ea0c59a1a39e038616189564119f660c54d477dce70a7ac5f9630d7e5642239b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 8/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "61397c9f36eff9e1139194f0940ef3a6f778eb708bb357f5ee1f0524091b3242",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 9/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "e8b685661ec00f12211332a773adcd8fbb5e82d0ce04de9467d18af8fb235b3c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 10/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "91e5e4aa2cbfa50ca9848205a464d47dd990df4e5013a4ca9d1e22bde2303ce3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 11/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "d2c03739418a9415e3b32f075f55e3335abe9f37a541eee344f416eb8a093a53",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 12/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "cc11425ecb0e9b5cdef28c51c310ce90b298be5def8bdbcc5607b3644cc2911e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 13/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "2d7d3415a6872ef74d3cda8c471f7d5b59d2e907e5e4c976d2a51a9790d990ff",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 14/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "0f765b8e00469b9c2e46168906af408f8c542ddf6b48cb841cd562ff132de04c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 15/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "e5ef9d172e45969468acdfce7ee2695d12976d501ce1ed314d220879d327b793",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 16/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "bd37268e7b11ac5b038f48a4e9456643ba304552a143f1a6353f9bab80551b1b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 17/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "a14b5a024b4a6e1be92deb23757c7a83d93d17e61d7a4ab93967796345a1afb9",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 18/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "720abb5d3e71b4150e4eea8499ddc336fff78f6cfed35d78c79dfb978a593571",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 19/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "f35c5d2d8382cbb6c458412ab916873cf626eb208c6ec302cdaf824e7c87c22e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 20/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "784266ee489cee3b7a412b27f90714ffde5f5a0cdff2631e9aeda876e4c391dc",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 21/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "a33ce75d18bd62fd8372101a4e534ff395096712e1ec994080d1ec9b16637ff0",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 22/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "f9c3afe476661dfafa3c3abd0e80f1ba5c00b554f5a1522599976e50cdba912c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 23/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "15360cd79e15933004967e60d9f2d5646a3ec9dea321c4b9639bad4b2b6b696a",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 24/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "401442d03d09e37a38fd1d2a5ce09c178be6131737017cb989341e310009a1f5",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 25/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "d80d862ae52deeefa27a8e5aafd682a5649a49b044236225632cc7dc6ad3e819",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 26/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "62ab70b82364d6be163625794d3c6e316db227efb7f284ed7cb3bded154551ac",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 27/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "9a963dc50629c98479cc5820a2de5251379d4daac31d0af1925e4b73eca0ad4e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 28/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "befc35a34954bdaa1cffe56bc2610ceac3bcb3c15fda435428b20213502af15c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 29/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "433d290d81ad27fd03c9eb8b9eb8070fd89b314482c6af79c996bf004accc49f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | MCAR 20% | replicate 30/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "2e753455241b17ddfc0b8aefbcc696d53bde322f9c2369c5ccce99cf077cd9ba",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 1/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "6b27c98442f586c80d04608b1677653702d9fd98d920e884894e396e1637eea7",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 2/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "4c836e7b254c3e92768bd253c08691a85fb7422be5e28e1d485eae5dbe9bfe30",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 3/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "d1ce502da3112bc531be62592441fe60ff14e3ea20d5f0c878a0ca9c8507bdc2",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 4/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "7b266ca2e4e685aebd15816a9977ac85a5e201237cb6105f3d104a592e4bd7a5",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 5/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "e54ba1698ff8d5e569437264c07db53780ab5ccceb7b6c5db2104d52db54ac99",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 6/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "99a145a6a578d3d33404de1ea760b60af0b94979b2758fa85ee907dbd47b36fc",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 7/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "3171d2ed1d6aff03a4958092559ab91188771479fad5e50a9a92809384487ad5",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 8/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "4488e9e5fed8c9434a340a2782e2d8c958b04b7fcdf3db92d9b59b7bc9ff28c0",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 9/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "bb462171cd1fac6204ae6801b53018cbb316e3a986996ae948f3b0891bd43fc9",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 10/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "da8c70d53327f62b5692a210f16dac95a8914adf6ab9765736e545051a13adc2",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 11/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "11c15df3abb91c953967e93100553d2160e11c5dcaa73b65c71c13e172fb2ada",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 12/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "4f212e16d91ff23d44443776169cca5144f35ca1c0068ddd92fa6f363e57b888",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 13/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "362409e57510c5df6937d102121ded8655948f4b59be2c97780ba563241567f4",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 14/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "70a947e7087109503a1b23c4aeb737a4ef7d290321090b40330be2e2399eaeb3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 15/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "7e2cd5067faab8d4d558dafa930cb73129584ec4690600bea321dab69018079c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 16/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "0a5371762cc64f081d0ed172ca4957ee75d967983697da2a462d36ff8fd3b2b6",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 17/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "e4011b0f5a2beb8e84b1e59844cc27467722b9d38c08e33093ab1b8c6d0d6813",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 18/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "1b1939272682c2a283ff937e5ad0e285a37c95f025cc6a5c3c4a0aaa45c432dd",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 19/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "cbaf32e6233be12deb8c3395b6b7be5e30bf4bab20ea47db4a9a8a5cd1d908ca",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 20/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "9ab3895189d7c5a6c2555c61556b9ba56031e161c2aa4bd860c00fd2c3c145c4",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 21/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "4709a73af0619ec569c06767911021b8cf21353183b160dce33a94714310f308",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 22/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "aa0b13a271b768034fe06c7e7dd312370ac94f91c302f606da408f37b0107f1c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 23/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "b09f6701c155e52b250ae1a796b9e12954c39be9644d25a405c2198912db702d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 24/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "02d75dc34a24e35028b3f08a773a80d955557366d689debf73b12a4f22525b4f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 25/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "8bb98247288604e010ae3eed5e1b0c08e363ec9c9f4796faa2f4a47b8f0d3493",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 26/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "756ddf2fd995e0d77279def7ec7a8fda3ea6ecc847687a76e47d7492538d0cbc",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 27/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "a5fbe0eaec32fee219d3548cbd1560f93922869cf5536024b2d635cad83bd506",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 28/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "aa395674872ca9d17351052cb15dd634440672f1007b51ac651cdc5c1b8ed9d9",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 29/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "00de45a2f95c08090aa78ad562e3c1e45c8db866df3edad44d7ed77bbdeb0985",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Block 20% | replicate 30/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "6a7b2dc6ec88123dd767b0632d5604978046d22fece1aacc0a4e18de3dddb004",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 1/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "89b45c9bfb631f70a7d5019c688b6fde1014c331d3a407d14a6b6c584d3c3933",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 2/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "ac8301d200ccd0454650014334264036003eba45e63742a37748e2101de551a2",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 3/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "5d454e4205685817844601016d3b27b1c7b7891352833ac20b6db06b7dbb9db8",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 4/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "733bb5901430417b7af16e5098793baf4c8a8d190b598927d1a9fd4692425654",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 5/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "d4462b6fb740f7451ee99b66c3f663687b1ca839c09cad79dc7cb43888abde9e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 6/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "6faac28036418351aa811be7976d25cb3257769a8e8a6b7520378761fdd16c65",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 7/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "39ee9a39eaf89924dc6aa87ea398765e87517a681e2280d3b27d4f3d016c7184",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 8/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "eb30e636d06853409eec73bb4e4ce6ca51c924becfb86c27803e0b3f92bd4dfe",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 9/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "dade8aee514ae5404d0cfb396b1bedbddf50a0a0f27147181881b873a123af2d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 10/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "068b203d4cb1786d8f2b407cbddd240f28b331d41e0e109752f0b5356c474f7c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 11/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "fdce17b3bc0bd85d7600ac3f4bb5ac02068c5ad7f08e93ca817106033f5c1fbd",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 12/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "607814ac40d382ae52e66a9ee4458ad68594656b4820ad80b4805387d303701a",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 13/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "70248564c30556e57cbbc07b46ec468924fd23bf46ba91a66f339293f1275f86",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 14/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "287a87acdd14641ad28eac17a23f245ad077b7a3c38cb826d9107d5a46bbe555",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 15/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "3432cb675940dfe3ed30723eb495c6a4d266e6ba5eff33c9fbd6fac056397a9b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 16/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "65e801f164cf4acb50d13303221e6f205e5fab585203491b767954149bd5b40f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 17/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "d2cc692fc05476e129f482a5175a77fdc3369ae3b8e1f587a302cb0a9b1e8aed",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 18/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "925c8fdd84731c6195f4c6c32d661f49c369b1081af8268e5999d80596dba771",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 19/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "5f930e120e6dc587c4ad24506fabcd794f2ee7300f6a1441bf944f1eaf775217",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 20/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "fc842c615293311e449eda1b8acbe0fafc097d1611d13c9a3dd524b8a1b34ee0",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 21/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "274028c5ab8cc2518f5a86b839b63cd58daad8b698ad97c45c3136c4051d2540",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 22/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "b399c545503da5ba4bcff2a18baf63e8b3b3e490832ba93a51eee90f553bc941",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 23/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "24664a7b0973a14a5ee244d86a5c0a7a06a1aaa7d163752e66d8d887521151e1",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 24/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "17d8a20522c77e29c91453bf1ab29826c42ad91c7f98d0aad0ffcf3056c9caa3",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 25/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "60a93eb4cab0391d299b59fc65b1667976fa18c44b12e1b1424a9c9b6c8929a1",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 26/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "700f32f15ce7fc058752782f8845f34e92fc0566dffaa1f0f37cf31d05e20b8e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 27/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "892d9d61e5c6975fa045f0a7717662d52a6aa95faa95c2f45ab1019fc42ceac5",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 28/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "3e9692874cbd0b5eec795c789a9d25684b4c4b179dfe84aaf7e915b77aef247c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 29/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "b5c100477d4dcda782a33178857be1f53e345bf520382117b259db49783d6192",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Gaussian 10% | replicate 30/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "740c3a9cb1e5df54891f443acec076a785af2fbc6a0809f1f3af19b2b80b5c7f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 1/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "802b795a13ae07823e7c216a87097d74aba520a52ea4c2de286be48dffdaa710",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 2/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "992622a32a59dafcde4519e3aaaf9ed1b9c747a8f4506f75f86353e5ba3f03ec",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 3/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "1a1305f5f24f55f0ea9ab94717297fe40c34246211f5ecc50db1bbe08c791a62",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 4/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "6fb09921e85000ca3413e9a2510b1ec4167b5745b4f8c929edf9bb76346befdd",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 5/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "e73372d6778d8254e2372ceb3da597fce15c89f4eb2d1f08e996dd3578ebcceb",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 6/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "9a34e8c066825ece1cf2e3db11e35bed1eada8b44b97f5769e5782b85f391cfe",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 7/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "79bc9f40db3569d4b3dab274ea4319b1b5beec326784fe6fc087e031f528eedd",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 8/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "66da4e76b93a0442691a4f7807cfdda3eba69dcdf5a3fe2da9231201343953bc",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 9/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "692d54bb15da8aac36f8ec070d85587426da209db1d40f94a372132d16d27cb4",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 10/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "3a187d4e71e5a8c3c4831d96d28c15c95e123e69d0348a00b857b8b95d2d9d78",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 11/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "a1e5db4b891ac7376791e447d0715d59479420987e9547884d46c2d0d19cc419",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 12/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "25dd7a6cd566ac8dced4f2ba720cddb984e7a2570114066d38396f5c61e8406b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 13/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "c7a52466dbbc15bb78786132a9f76e559fcc5f15f8ca5994a4214c06b6dfa5cd",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 14/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "c66155d511ce717af343e857134d4c99396751a0ab69fc2120f44b40fb0f272e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 15/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "b028fbed006e5e67ca9d59444de2248f99d014206344b10f8ae948c7eed4e885",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 16/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "9709fb5c9bc9f28f21954a9b7568fa03ea212caa90faa4849f4344ca586c7ecd",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 17/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "f41d6995c03466067e74a5e2cefef3ea6de48845ebe50e685ea8165598fe39ff",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 18/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "b777ba2fe29c6ecd172eb3e369fd39e51824ff4a98e1f71e2cf0ace3b34f9f54",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 19/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "c45ab2a2ab009a3ea2a541fbbb9185eea80c759b8e45c892845be6b3b4e860a0",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 20/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "4267b3ba8801fbac676417f76faa04573298212a56fed5877163865f2b88f544",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 21/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "1ad009f53a677868891307069c1cd9e9789fee3c1d926340be5dc6cb01a0a9b4",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 22/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "d03e4554de5c54009d98f0f1d51e3ab565799fa83128cc67e794c7551189b7df",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 23/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "9ac84d3fed39573faa830342dcc84e228c8be1646fc0774fe08b1e9c9e79e87e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 24/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "6d90bd2660502616a7575fb807acaf67c21a6c4e51a633f3f260c67a8a4d1556",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 25/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "e76a2cc7895da3b036f7e758f2c50ff60cbbcd9654a4a42236d38efe6dfe76c6",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 26/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "571c10f6cf72650a4d37e6dacd55fd0e661190cc08be7a2b03bd5b45d3e4e4a5",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 27/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "e6e7e2ee24c2caf47597a11891342eef07b91817075a852fa8fe07dbdea0e57e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 28/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "8ab68734d1fd7c9b1ef80129f19ae364125f59cd526fbf9683d304fbfff25e5d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 29/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "de2071c94bc7e216783f52d9251a4add6624455b7f3fe94d436f7f2f89908e12",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "External | Household Power | Abrupt drift | replicate 30/30",
+    "stage": "EXTERNAL_STRESS",
+    "status": "computed"
+  },
+  {
+    "task_key": "441abdccb7045ac49ee0318b6abc0c9904e7b8ba9cc0d9afe7c36488193800ce",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing PRSA_Data_Aotizhongxin_20130301-20170228",
+    "stage": "BEIJING_DATA",
+    "status": "computed"
+  },
+  {
+    "task_key": "9ac051fe2333fa8f961464ebf8e46a9408f15dc9621a1c50bf0d8e533cf68d1b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing PRSA_Data_Changping_20130301-20170228",
+    "stage": "BEIJING_DATA",
+    "status": "computed"
+  },
+  {
+    "task_key": "85d1c5dd52d5793d106a615159efbe60f936d82026dcbd66eb7cef0928571a51",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing PRSA_Data_Dingling_20130301-20170228",
+    "stage": "BEIJING_DATA",
+    "status": "computed"
+  },
+  {
+    "task_key": "d3456787b7776ba316ddad1418d548e8f1bbc2b8c525f47d8802534b55fe83b1",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing PRSA_Data_Dongsi_20130301-20170228",
+    "stage": "BEIJING_DATA",
+    "status": "computed"
+  },
+  {
+    "task_key": "ab0f7f0542ded083b4bcd2430e5678d93230ba345a454ee9ef1894bdaeba2292",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing PRSA_Data_Guanyuan_20130301-20170228",
+    "stage": "BEIJING_DATA",
+    "status": "computed"
+  },
+  {
+    "task_key": "849579236df2e0a73e6f661bc22865e5a190dcbe31e7792d3da5f909b05ed4cb",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing PRSA_Data_Gucheng_20130301-20170228",
+    "stage": "BEIJING_DATA",
+    "status": "computed"
+  },
+  {
+    "task_key": "048e3ddc44ae1c2fa9eef30302bbe024fd370d9a59f0115abd4deea7f3f185c6",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing PRSA_Data_Huairou_20130301-20170228",
+    "stage": "BEIJING_DATA",
+    "status": "computed"
+  },
+  {
+    "task_key": "64c410167f9ae3248a62b381e5a863bb0e80c57ceec710aaa328f77af33e3318",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing PRSA_Data_Nongzhanguan_20130301-20170228",
+    "stage": "BEIJING_DATA",
+    "status": "computed"
+  },
+  {
+    "task_key": "4af7df00fe188271bda2e821f2b8b8f24f5ee2d39b9a422d3112d58e26dc94fe",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing PRSA_Data_Shunyi_20130301-20170228",
+    "stage": "BEIJING_DATA",
+    "status": "computed"
+  },
+  {
+    "task_key": "30820c0f3d60e4a2e4180d0a9123d7e333afc6a24db58c158f45630f4dbfb4a6",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing PRSA_Data_Tiantan_20130301-20170228",
+    "stage": "BEIJING_DATA",
+    "status": "computed"
+  },
+  {
+    "task_key": "c1d70e4288dd75a1063f8513b6bde5acec6c819b4f4e80ac300006c101d40e9b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing PRSA_Data_Wanliu_20130301-20170228",
+    "stage": "BEIJING_DATA",
+    "status": "computed"
+  },
+  {
+    "task_key": "9c9fbca3debcc6af143dad891a1077a12c31630d6153a965dd94b3707f369874",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing PRSA_Data_Wanshouxigong_20130301-20170228",
+    "stage": "BEIJING_DATA",
+    "status": "computed"
+  },
+  {
+    "task_key": "c594996e8e1d56a0bb60980a622393a3bda5f3f30f9d5b000ac1989332ca296c",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Aotizhongxin | Local | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "bf221e5a80f72736d88e90dbac3c5a1fed0ece169141e3c69591af43960f49f8",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Aotizhongxin | Local | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "e8fd028d5f8927d9cfc49c79050a75f37188f4401389dd3ba943b3fc75a57690",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Aotizhongxin | LOSO | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "3efc58356257b03e1f51764ab4e8fd8dc4f31949c48d012b4efb01ef67eb3343",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Aotizhongxin | LOSO | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "d26aaf3d41b06b8638d73fde3b37502a95c95825a623cee035579bdbef5238a0",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Changping | Local | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "bc99475c1d49e3ee069f20a0a59b139ba41efcf93ba847da7fef5b29d3ee12bc",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Changping | Local | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "7df07e6743f9516398f0034597ecf7138b40236c83404a8216e824ec620530b2",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Changping | LOSO | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "482bec1f8661157a6b907f9c8ac1d26b47ccb07f2d520e6b9e9d61a21c1b7f3e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Changping | LOSO | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "1b54754373cc4a949eb803fb035e11b3a18321b156e2b8ce9073eb8c998f7215",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Dingling | Local | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "89bc8c8e3188208f01c378712f4bcb0f1981df299d7e35d6b67e4f691a1ba2d4",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Dingling | Local | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "d29cefc2caee81de239d875bf0f59ef00a78debfdfd20a2877284786e1561e97",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Dingling | LOSO | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "e2b3ed3c6b3bf48d512180e50adf8615a8fdcf125debfcdd7f755e9e173c4ed5",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Dingling | LOSO | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "af044f614d4dbe31efd9975434c348491161015590cb3793dde521e53878c664",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Dongsi | Local | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "7c68c3956e3e24b0bcd1c0ad64aec5635f47c2befdf1ab7e619272bce7569a37",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Dongsi | Local | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "92eaca913795ef7d1c20c34c988eddff37800b079b9b797a405236e2a3726ec6",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Dongsi | LOSO | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "00cdf73031c268cd8540f8dcb3a437b9023f0cc7af4b4258ac8b9cbce5d38c48",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Dongsi | LOSO | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "ddad7271171955d99bdb9c98667b3a450ff9495d8dfc16026686226ac8153e36",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Guanyuan | Local | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "200533454b03b7a7dd64ced6f0110ff7d898400d470a5854e183585c829b9e5d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Guanyuan | Local | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "fcbf170b9de50db4e470af010701463a00b2e82a6fb93e8f90bd0930c7155458",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Guanyuan | LOSO | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "33dadc48c5cf2b412af99d5ea2b3f918bab24700625ce66b0d107912d039b40a",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Guanyuan | LOSO | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "9fb28461b7c5979001607626d195d919b66941a8879a691288333705919499ef",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Gucheng | Local | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "6e7f17a416c7b97e9472f0d7736dc65b92699b21a385605ecb8e3ffba89e53bc",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Gucheng | Local | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "715a7fff4e011280354f7a5988be3e835578c7fe9487b1bba3b7aaa5743865ee",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Gucheng | LOSO | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "8abaae32573917a35a9741ec47a6151e720ca3725e4e39c4f48d8dfc5a4efd48",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Gucheng | LOSO | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "d67a810c675d9790505ff3e713f76c41a2e97b9e6c22476f8e1d4baa2b2a14b7",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Huairou | Local | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "31bfee69f561167d9c1f8b91c43ab2a3f65313a809213b0d64e71b60c6aee25f",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Huairou | Local | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "203a3245d3ac7f4600ee913b57709b64a2dce9a69da2bcf06e6b117046e89cd9",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Huairou | LOSO | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "a57ca966696433036c37b74a8b740df83f703f2b2cd2eb3855e67ae1b9c98371",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Huairou | LOSO | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "53e7bbe90235d677b28e1263abc3a2479a90302eaf1676aa099bee2e2c952772",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Nongzhanguan | Local | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "6d355abbbc6d6bc4c9c4137c0b089ce680af5f6e3babcaedbdc8e96d585dee22",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Nongzhanguan | Local | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "865ee3a109921887bd9f102bc50945062651b8fec3d24c3d75f0289e9c9661b5",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Nongzhanguan | LOSO | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "e7fe91dde644f350b06fb70d1f7bb5add8b0766b9b4a96859f48a811df67b02e",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Nongzhanguan | LOSO | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "bbcf98b46e378a652b3a5cb27805deedc1492ab84a398168246a62dd902a1426",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Shunyi | Local | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "b5706e54707e03ac77be2d2af91641e59866ae0cc0fe19bc6ba7ae52b6b1f4a7",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Shunyi | Local | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "80d8582d62e44f533cea99379139284329a312d096eb024d357ef6224f9b5fa5",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Shunyi | LOSO | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "f4f11dfed08d0ddf7c8a22ecbb029ab6887e1011f036bd7182a76246ea225d27",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Shunyi | LOSO | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "666147a52135c6b5dc342d03ecae019634303670a7b89b8629eb2d37155f9201",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Tiantan | Local | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "4ac9a170055dc661dc3eb7139dd6b0a6641a32213872c9aa3ae08d01f0e0bbde",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Tiantan | Local | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "3fa69a586c47393c0c9f2fe307012a57fc0769c213f247d51f7ffcfe1877c967",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Tiantan | LOSO | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "b067738e7a30a702e7dd9a92658c401785513f9667a58c979da10e60213eb2a9",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Tiantan | LOSO | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "5aa55bff3c3bf090a85fab714307533c23b54a473f7e614f1877c7fdf58420b0",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Wanliu | Local | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "24c6b95d33955a4ea798ceb65a6a4967e094efc272bb6ff08c5eafc00132e10b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Wanliu | Local | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "5c65957c2ecdf01cd0fc74d5f10aef695561a48f9c1455b259b85aca13a74071",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Wanliu | LOSO | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "ee6dc2e1bf4ebca8a58f40b36d6e6408753e96e4fed93c6a7797782a07b0d34d",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Wanliu | LOSO | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "55fa5c8e1cb49f26316891ecc3ebeb68048fbd3288d7ee16f5508d1298200f9b",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Wanshouxigong | Local | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "dbd4ed231390f28c24d37591bfd48c32c7229e9aeadeecf4cd01d5ebde8acd9a",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Wanshouxigong | Local | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "b42a03f322827558631543e47dcfebdb9a8000f444b87f3872f8c1d4525a3e43",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Wanshouxigong | LOSO | Ridge",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  },
+  {
+    "task_key": "bb8a6c0671425eec78351d041eed4e718f0140abfd820c97e561b691396065ed",
+    "run_key": "653b00226ec3d41dec2775b67bd2fd9dd9839f1ccd2040782f3c9375c8c62437",
+    "label": "Beijing Wanshouxigong | LOSO | HistGradientBoosting",
+    "stage": "BEIJING_FIT",
+    "status": "computed"
+  }
+]

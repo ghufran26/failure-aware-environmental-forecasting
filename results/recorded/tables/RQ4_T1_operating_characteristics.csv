@@ -1,0 +1,33 @@
+Dataset,Detector,Injected shift,Enabled,Pre alarms/1k,Post alarm rate,No-prior-alarm rate,Matched clean rate,Conditional residual lag,FAR upper 95%,FAR target supported
+Air,CUSUM,Abrupt mean,True,0,0,0,0,,3.25623073212,False
+Air,CUSUM,Gradual mean,True,0,0,0,0,,3.25623073212,False
+Air,CUSUM,Recurring,True,0,0,0,0,,3.25623073212,False
+Air,CUSUM,Variance,True,0,0,0,0,,3.25623073212,False
+Air,EWMA,Abrupt mean,False,0,0,0,0,,,
+Air,EWMA,Gradual mean,False,0,0,0,0,,,
+Air,EWMA,Recurring,False,0,0,0,0,,,
+Air,EWMA,Variance,False,0,0,0,0,,,
+Air,Page-Hinkley,Abrupt mean,True,0,0.416666666667,0.416666666667,0,401,3.25623073212,False
+Air,Page-Hinkley,Gradual mean,True,0,0.433333333333,0.433333333333,0,629.5,3.25623073212,False
+Air,Page-Hinkley,Recurring,True,0,0.0666666666667,0.0666666666667,0,676,3.25623073212,False
+Air,Page-Hinkley,Variance,True,0,0.0166666666667,0.0166666666667,0,670,3.25623073212,False
+Air,Windowed KS,Abrupt mean,False,0,0,0,0,,,
+Air,Windowed KS,Gradual mean,False,0,0,0,0,,,
+Air,Windowed KS,Recurring,False,0,0,0,0,,,
+Air,Windowed KS,Variance,False,0,0,0,0,,,
+Energy,CUSUM,Abrupt mean,True,0,0.483333333333,0.483333333333,0,141,1.56435105669,False
+Energy,CUSUM,Gradual mean,True,0,0.383333333333,0.383333333333,0,703,1.56435105669,False
+Energy,CUSUM,Recurring,True,0,0.316666666667,0.316666666667,0,140,1.56435105669,False
+Energy,CUSUM,Variance,True,0,0.483333333333,0.483333333333,0,576,1.56435105669,False
+Energy,EWMA,Abrupt mean,True,0,1,1,1,153,1.56435105669,False
+Energy,EWMA,Gradual mean,True,0,1,1,1,426,1.56435105669,False
+Energy,EWMA,Recurring,True,0,1,1,1,426,1.56435105669,False
+Energy,EWMA,Variance,True,0,1,1,1,426,1.56435105669,False
+Energy,Page-Hinkley,Abrupt mean,True,0,0.816666666667,0.816666666667,0,157,1.56435105669,False
+Energy,Page-Hinkley,Gradual mean,True,0,0.75,0.75,0,1602,1.56435105669,False
+Energy,Page-Hinkley,Recurring,True,0,0.483333333333,0.483333333333,0,154,1.56435105669,False
+Energy,Page-Hinkley,Variance,True,0,0.616666666667,0.616666666667,0,436,1.56435105669,False
+Energy,Windowed KS,Abrupt mean,False,0,0,0,0,,,
+Energy,Windowed KS,Gradual mean,False,0,0,0,0,,,
+Energy,Windowed KS,Recurring,False,0,0,0,0,,,
+Energy,Windowed KS,Variance,False,0,0,0,0,,,

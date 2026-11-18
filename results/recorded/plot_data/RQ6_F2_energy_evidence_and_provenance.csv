@@ -1,0 +1,9 @@
+dataset,model,stage,seconds,s_low,s_high,energy,energy_kind,RSS,RSS_delta,repeats
+Air Quality,HistGradientBoosting,Training,2.9397375356,2.83066602555,3.0924105944,,unavailable: no valid positive energy readout,802.56640625,0.21484375,15
+Air Quality,MLP,Training,22.4746349835,22.1712703791,22.9513451955,,unavailable: no valid positive energy readout,802.40625,0.00390625,15
+Air Quality,Random Forest,Training,45.8784517282,45.2029189426,48.3419644697,,unavailable: no valid positive energy readout,802.4921875,13.2734375,15
+Air Quality,Ridge,Training,0.116720950202,0.107761247758,0.129611511372,,unavailable: no valid positive energy readout,802.32421875,0.00390625,15
+Appliances Energy,HistGradientBoosting,Training,8.1526220314,7.82088891605,8.5333782805,,unavailable: no valid positive energy readout,966.5625,94.1171875,15
+Appliances Energy,MLP,Training,149.74884053,147.106981913,153.160976962,,unavailable: no valid positive energy readout,927.9609375,55.51171875,15
+Appliances Energy,Random Forest,Training,364.412072301,362.677476395,368.458395057,,unavailable: no valid positive energy readout,992.5546875,127.421875,15
+Appliances Energy,Ridge,Training,0.33298154187,0.315146422506,0.354050443018,,unavailable: no valid positive energy readout,993.08203125,125.1640625,15
